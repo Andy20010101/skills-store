@@ -1,9 +1,12 @@
 ---
 name: "1688-supplier-discovery"
-description: "Run low-frequency, browser-first 1688 supplier research for a single product direction and produce a supplier-first Markdown shortlist with visible facts, heuristic judgments, unknowns, and source links. Use when the task is reusable 1688 sourcing research inside an OpenClaw-style host, not a crawler platform or runtime rebuild."
+description: "Run low-frequency, browser-first 1688 supplier research for a single product direction and produce a supplier-first Markdown shortlist with visible facts, heuristic judgments, unknowns, and source links. This root SKILL.md is the Codex adapter over an agent-agnostic 1688 supplier discovery contract."
 ---
 
-# 1688 Supplier Discovery
+# 1688 Supplier Discovery For Codex
+
+This root `SKILL.md` is the Codex-facing adapter for the shared supplier-discovery contract in `core/`.
+If another host or agent is being used, prefer the matching adapter in `adapters/` or reuse the shared docs directly.
 
 Use this skill when the user wants a reusable 1688 supplier research workflow for one product direction.
 
@@ -21,7 +24,7 @@ Before starting, confirm all of these:
 - The brief is narrow enough for one pass: one product direction, not a whole catalog.
 
 If any prerequisite is missing, stop and report the blocker instead of widening scope.
-Use [host-preflight.md](references/host-preflight.md) for the exact pre-run check.
+Use [agent-capability-contract.md](core/agent-capability-contract.md) and [host-preflight.md](core/host-preflight.md) for the exact pre-run check.
 
 ## Required Inputs
 
@@ -32,7 +35,7 @@ Ask for or infer only the minimum needed:
 - any must-have or must-avoid supplier traits
 - preferred output file path if the host requires one
 
-If the brief is incomplete, use [brief-template.md](references/brief-template.md).
+If the brief is incomplete, use [brief-template.md](core/brief-template.md).
 
 ## Workflow
 
@@ -48,7 +51,7 @@ If the brief is incomplete, use [brief-template.md](references/brief-template.md
 - Build an initial supplier candidate set from visible result pages.
 - Prefer breadth first, then depth: do not spend the whole pass on one seller too early.
 
-Use [search-playbook.md](references/search-playbook.md) when choosing phrases, deciding when to branch, or narrowing a noisy search result set.
+Use [search-playbook.md](core/search-playbook.md) when choosing phrases, deciding when to branch, or narrowing a noisy search result set.
 
 ### 3. Inspect candidate evidence
 
@@ -58,7 +61,7 @@ For each shortlisted supplier:
 - record only page-visible evidence
 - separate facts, heuristics, and unknowns
 
-Use [supplier-rubric.md](references/supplier-rubric.md) while reading pages.
+Use [supplier-rubric.md](core/supplier-rubric.md) while reading pages.
 
 ### 4. Rank conservatively
 
@@ -69,7 +72,7 @@ Use [supplier-rubric.md](references/supplier-rubric.md) while reading pages.
 ### 5. Produce the report
 
 - Output a supplier-first Markdown report.
-- Follow [output-contract.md](references/output-contract.md).
+- Follow [output-contract.md](core/output-contract.md).
 - Include original links for every supplier and representative product cited.
 
 ## Quality Rules
@@ -83,7 +86,7 @@ Use [supplier-rubric.md](references/supplier-rubric.md) while reading pages.
 ## Failure Behavior
 
 If the run is blocked or degraded:
-- follow [failure-playbook.md](references/failure-playbook.md)
+- follow [failure-playbook.md](core/failure-playbook.md)
 - explain what was attempted
 - state whether the issue is no results, page structure instability, login restriction, captcha, or missing host capability
 - give the operator the narrowest next step needed to continue
@@ -100,13 +103,13 @@ The final report must make it easy for another operator to see:
 ## Example Material
 
 The repo includes illustrative examples for format and judgment discipline:
-- [example-happy-path-report.md](references/example-happy-path-report.md)
-- [example-failure-report.md](references/example-failure-report.md)
+- [example-happy-path-report.md](examples/example-happy-path-report.md)
+- [example-failure-report.md](examples/example-failure-report.md)
 
 They are examples, not proof that the current host or account can already complete a real run.
 
 Current environment validation artifacts:
-- [live-validation-2026-04-16-mirror-happy-path.md](references/live-validation-2026-04-16-mirror-happy-path.md)
-- [live-validation-2026-04-16-direct-site-failure.md](references/live-validation-2026-04-16-direct-site-failure.md)
+- [live-validation-2026-04-16-mirror-happy-path.md](examples/live-validation-2026-04-16-mirror-happy-path.md)
+- [live-validation-2026-04-16-direct-site-failure.md](examples/live-validation-2026-04-16-direct-site-failure.md)
 
 Those two files are real validation notes from April 16, 2026. They prove the current research environment could gather partial supplier evidence through accessible mirror pages, while direct `1688.com` page opening still failed in the same environment.
