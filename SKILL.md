@@ -104,3 +104,9 @@ The repo includes illustrative examples for format and judgment discipline:
 - [example-failure-report.md](references/example-failure-report.md)
 
 They are examples, not proof that the current host or account can already complete a real run.
+
+Current environment validation artifacts:
+- [live-validation-2026-04-16-mirror-happy-path.md](references/live-validation-2026-04-16-mirror-happy-path.md)
+- [live-validation-2026-04-16-direct-site-failure.md](references/live-validation-2026-04-16-direct-site-failure.md)
+
+Those two files are real validation notes from April 16, 2026. They prove the current research environment could gather partial supplier evidence through accessible mirror pages, while direct `1688.com` page opening still failed in the same environment.
