@@ -14,6 +14,7 @@ A compatible host must be able to do all of these:
 
 ## Optional But Useful Capabilities
 
+- structured intermediate-output writing such as `candidate-set.json` and `evidence-notes.json`
 - keyword search assistance
 - page screenshots
 - tab management
@@ -25,6 +26,8 @@ Every adapter should map native tools to the same conceptual operations:
 - `navigate_page`
 - `read_visible_content`
 - `open_supplier_or_product_link`
+- `write_candidate_set` when the host supports phased execution
+- `write_evidence_notes` when the host supports phased execution
 - `write_markdown_report`
 - `normalize_final_output`
 
@@ -41,6 +44,13 @@ That means the adapter should:
 - point `run-result.json` at the canonical report artifact, not the noisy raw transcript
 
 If the raw transcript is still useful, store it separately and reference it through `run_notes_ref`.
+
+When the host is brittle or the authenticated session is expensive, the adapter should prefer:
+1. bounded search harvest into `candidate-set.json`
+2. bounded evidence review into `evidence-notes.json`
+3. final report synthesis from the reviewed evidence
+
+Do not force search expansion, supplier review, and report synthesis into one long run when the host is more stable with staged execution.
 
 ## Non-Goals
 
@@ -59,4 +69,5 @@ Before claiming a host is supported, confirm that one real run can:
 - open at least one supplier page when available
 - write a clean supplier-first Markdown report after any required normalization
 
+When the host uses staged execution, also persist the intermediate `candidate-set.json` and `evidence-notes.json` artifacts so the compatibility test can be audited step by step.
 When the host uses the structured interface, persist this check as a validated `capability-manifest.json`.

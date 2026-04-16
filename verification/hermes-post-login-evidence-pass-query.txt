@@ -1,0 +1,37 @@
+You are running phase 2 of a Hermes direct-site validation using an operator-provided authenticated browser session.
+
+Assume the user has already:
+- connected your browser tools to their live Chrome via `/browser connect`
+- manually logged into any required 1688 / Taobao pages in that same browser session
+
+Rules:
+- reuse the current authenticated browser session
+- do not ask for credentials
+- do not attempt captcha bypass or hidden-interface fallback
+- do not edit repository files
+- do not expand back into broad search in this phase
+- do not produce the final Markdown report in this phase
+
+Read these local files first:
+- adapters/hermes/PROMPT.md
+- core/supplier-rubric.md
+- core/output-contract.md
+- interface/evidence-notes.schema.json
+- interface/examples/evidence-notes.example.json
+- {{CANDIDATE_SET_PATH}}
+
+Phase objective:
+- inspect the first 3 candidates from the candidate set
+- open product-detail and supplier pages when available
+- collect visible facts, heuristic judgments, unknowns, and representative-product links
+
+If a candidate cannot be completed:
+- mark it as `blocked` or `rejected`
+- state exactly what page type failed or why it was not worth deeper review
+
+Output requirements:
+- produce exactly one JSON object conforming to `interface/evidence-notes.schema.json`
+- `phase` must be `evidence_pass`
+- keep `evidence_pages` limited to pages you actually opened in this phase
+- do not wrap JSON in code fences
+- do not add explanations before or after the JSON

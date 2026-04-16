@@ -43,3 +43,8 @@ Before the run starts, you should be able to state:
 - search phrases to try first
 - key filtering constraints
 - output location or report handoff path
+
+If the host is using staged execution, you should also be able to state:
+- where `candidate-set.json` will be saved
+- where `evidence-notes.json` will be saved
+- where the final canonical Markdown report will be saved

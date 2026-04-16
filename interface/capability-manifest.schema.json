@@ -86,6 +86,9 @@
         "output_normalization": {
           "type": "boolean"
         },
+        "structured_intermediate_output": {
+          "type": "boolean"
+        },
         "keyword_search_assist": {
           "type": "boolean"
         },
@@ -125,6 +128,14 @@
           "minLength": 1
         },
         "normalize_final_output": {
+          "type": "string",
+          "minLength": 1
+        },
+        "write_candidate_set": {
+          "type": "string",
+          "minLength": 1
+        },
+        "write_evidence_notes": {
           "type": "string",
           "minLength": 1
         }

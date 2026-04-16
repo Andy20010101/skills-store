@@ -1,0 +1,82 @@
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_lunch_box_001",
+  "phase": "evidence_pass",
+  "evidence_mode": "direct_1688",
+  "reviewed_candidates": [
+    {
+      "candidate_id": "cand_xuanjiang_001",
+      "status": "kept",
+      "supplier_name": "潮州市潮安区彩塘镇轩匠五金制品厂",
+      "product_title": "304不锈钢保温饭盒上班族便携带饭桶学生提锅便当盒汤壶碗",
+      "supplier_page_link": "https://shop07866986b0436.1688.com/?offerId=851436523899&td_page_id=PC-DEFAULT-2025",
+      "evidence_pages": [
+        {
+          "page_role": "product_detail",
+          "evidence_page_link": "https://detail.1688.com/offer/851436523899.html",
+          "source_1688_link": "https://detail.1688.com/offer/851436523899.html",
+          "page_summary": "direct product detail page showed 304 stainless steel insulated lunch-box content with visible pricing and MOQ clues"
+        },
+        {
+          "page_role": "supplier_page",
+          "evidence_page_link": "https://shop07866986b0436.1688.com/?offerId=851436523899&td_page_id=PC-DEFAULT-2025",
+          "source_1688_link": "https://shop07866986b0436.1688.com/?offerId=851436523899&td_page_id=PC-DEFAULT-2025",
+          "page_summary": "direct shop page showed stable supplier identity and service metrics"
+        }
+      ],
+      "page_visible_facts": [
+        "入驻2年",
+        "主营：餐具",
+        "店铺回头率 51%",
+        "新人价 ¥18.50 起",
+        "1个起批"
+      ],
+      "heuristic_judgments": [
+        "supplier identity looked stable enough for shortlist inclusion",
+        "price and MOQ were close to the requested sourcing band"
+      ],
+      "unknowns": [
+        "factory-direct status was not proven on-page",
+        "certification and export history remained unknown"
+      ],
+      "representative_products": [
+        {
+          "title": "304不锈钢保温饭盒上班族便携带饭桶学生提锅便当盒汤壶碗",
+          "evidence_link": "https://detail.1688.com/offer/851436523899.html",
+          "source_1688_link": "https://detail.1688.com/offer/851436523899.html",
+          "visible_price_moq": "¥18.50 起; 1个起批",
+          "notes": "visible 304不锈钢 claim and lunch-box category fit"
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_xinboer_002",
+      "status": "rejected",
+      "supplier_name": "潮州市潮安区辛博尔不锈钢制品厂",
+      "product_title": "304不锈钢保温饭盒多层午餐盒成人学生带饭盒分格便当盒商超礼品",
+      "evidence_pages": [
+        {
+          "page_role": "product_detail",
+          "evidence_page_link": "https://detail.1688.com/offer/672143711850.html",
+          "source_1688_link": "https://detail.1688.com/offer/672143711850.html",
+          "page_summary": "direct detail page was readable but this bounded pass did not reach a stable supplier page for comparative review"
+        }
+      ],
+      "page_visible_facts": [
+        "2件起批",
+        "seller name was visible",
+        "承诺48小时发货"
+      ],
+      "heuristic_judgments": [
+        "product detail was credible but not enough on its own to outrank the stronger kept candidate in the bounded session"
+      ],
+      "unknowns": [
+        "supplier-page breadth remained unverified in this pass"
+      ],
+      "rejection_reason": "bounded evidence pass ended before a stable supplier-page review justified keeping this candidate"
+    }
+  ],
+  "limitations": [
+    "only two candidates were reviewed in this example bounded pass"
+  ]
+}

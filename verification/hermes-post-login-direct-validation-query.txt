@@ -1,5 +1,11 @@
 You are running a Hermes direct-site validation using an operator-provided authenticated browser session.
 
+This is the legacy one-shot validation prompt.
+For reliable Hermes runs, prefer the phased prompts:
+- `verification/hermes-post-login-search-harvest-query.txt`
+- `verification/hermes-post-login-evidence-pass-query.txt`
+- `verification/hermes-post-login-report-synthesis-query.txt`
+
 Assume the user has already:
 - connected your browser tools to their live Chrome via `/browser connect`
 - manually logged into any required 1688 / Taobao pages in that same browser session

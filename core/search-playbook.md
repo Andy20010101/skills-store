@@ -50,3 +50,22 @@ If you only have weak candidates:
 - say that the market pass was weak
 - keep the shortlist small
 - recommend the next best keyword adjustment
+
+## Constrained Host Mode
+
+Use this mode when:
+- the browser session is operator-authenticated and expensive to reacquire
+- the host has a tight turn budget
+- search-result pages are noisy enough that open-ended browsing is likely to waste the run
+
+Recommended hard bounds:
+1. start with exactly one direct phrase
+2. use at most one fallback phrase
+3. open at most two product pages per phrase before deciding whether the phrase is viable
+4. stop harvesting after five candidate URLs or two credible suppliers, whichever comes first
+5. persist a `candidate-set.json` artifact before deeper supplier review
+
+If a search page is visibly thin or noisy:
+- say that explicitly in the candidate set
+- keep only the highest-signal URLs
+- move into evidence review instead of continuing to expand search

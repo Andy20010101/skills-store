@@ -1,0 +1,40 @@
+You are running phase 1 of a Hermes direct-site validation using an operator-provided authenticated browser session.
+
+Assume the user has already:
+- connected your browser tools to their live Chrome via `/browser connect`
+- manually logged into any required 1688 / Taobao pages in that same browser session
+
+Rules:
+- reuse the current authenticated browser session
+- do not ask for credentials
+- do not attempt captcha bypass or hidden-interface fallback
+- do not edit repository files
+- do not produce a final Markdown report in this phase
+
+Read these local files first:
+- adapters/hermes/PROMPT.md
+- core/search-playbook.md
+- interface/candidate-set.schema.json
+- interface/examples/research-request.example.json
+- interface/examples/candidate-set.example.json
+
+Phase objective:
+- harvest a reviewable candidate set from direct 1688 search results
+- stay within a constrained budget: at most 2 search phrases and at most 2 product-page opens per phrase
+- stop early if you already have 2 credible candidates with clear supplier identity
+
+What to collect:
+- up to 5 candidate products or supplier links worth deeper inspection
+- direct links only when available in the authenticated session
+- visible clues that justify why each candidate is worth deeper review
+
+If direct search still fails:
+- emit an empty candidate list
+- record the exact blocker in `blockers`
+
+Output requirements:
+- produce exactly one JSON object conforming to `interface/candidate-set.schema.json`
+- `phase` must be `search_harvest`
+- `evidence_mode` should reflect what you actually used
+- do not wrap JSON in code fences
+- do not add explanations before or after the JSON

@@ -31,10 +31,14 @@ See [core/agent-capability-contract.md](core/agent-capability-contract.md).
 
 ## Agent Interface
 
-Different hosts should exchange the same three surfaces:
+Different hosts should exchange the same three final surfaces:
 - `request.json`: validated by [interface/research-request.schema.json](interface/research-request.schema.json)
 - `capability-manifest.json`: validated by [interface/capability-manifest.schema.json](interface/capability-manifest.schema.json)
 - `run-result.json`: validated by [interface/run-result.schema.json](interface/run-result.schema.json)
+
+For staged or turn-constrained hosts, the repo now also recommends two intermediate surfaces:
+- `candidate-set.json`: validated by [interface/candidate-set.schema.json](interface/candidate-set.schema.json)
+- `evidence-notes.json`: validated by [interface/evidence-notes.schema.json](interface/evidence-notes.schema.json)
 
 The human-readable report still follows [core/output-contract.md](core/output-contract.md).
 The saved report artifact should be a clean canonical Markdown file, not a raw host transcript with banners or session metadata.
@@ -48,9 +52,13 @@ This repo keeps both human-readable reports and machine-readable run metadata:
 - interop prompts, request files, and convergence notes live under `verification/`
 
 When a raw transcript is kept, `run-result.json` should still point at the cleaned canonical Markdown artifact.
+When a host is better served by phased execution, the intermediate `candidate-set.json` and `evidence-notes.json` artifacts should live under `verification/` so search harvesting, evidence review, and report synthesis can be debugged separately.
 
 For Hermes specifically, the repo now also includes an operator-assisted login path for direct-site validation:
 - [verification/hermes-operator-assisted-login-workflow.md](verification/hermes-operator-assisted-login-workflow.md)
+- [verification/hermes-post-login-search-harvest-query.txt](verification/hermes-post-login-search-harvest-query.txt)
+- [verification/hermes-post-login-evidence-pass-query.txt](verification/hermes-post-login-evidence-pass-query.txt)
+- [verification/hermes-post-login-report-synthesis-query.txt](verification/hermes-post-login-report-synthesis-query.txt)
 - [verification/hermes-post-login-direct-validation-query.txt](verification/hermes-post-login-direct-validation-query.txt)
 - `verification/templates/` for post-login validation note and `run-result.json` templates
 

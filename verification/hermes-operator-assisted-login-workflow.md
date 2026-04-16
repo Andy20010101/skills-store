@@ -1,7 +1,7 @@
 # Hermes Operator-Assisted Login Workflow
 
 - Purpose: enable a lawful operator-provided 1688 / Taobao login session for Hermes direct-site validation
-- Status: documented workflow only; not yet executed in this repository's current headless environment
+- Status: executed on 2026-04-16; validated to `validated_partial` when Hermes reused a live authenticated Chrome session and emitted a partial direct-site report
 
 ## Why This Exists
 
@@ -11,10 +11,10 @@ Current Hermes validation established:
 - mirror-page reading works
 
 What is still missing:
-- a Hermes run that reuses an already-authenticated browser session and then continues direct-site reading
+- a stable direct-site path that reaches a full 3-supplier shortlist without consuming the whole turn budget inside noisy search pages
 
 Hermes supports attaching browser tools to a live Chrome session via CDP.
-That is the right path when login must be performed by a human operator.
+That is the right path when login must be performed by a human operator, and it is now the recommended direct-site validation mode for Hermes.
 
 ## Preconditions
 
@@ -80,19 +80,62 @@ Expected result:
 - Hermes reports `connected to live Chrome via CDP`
 - the endpoint is reachable
 
-## Step 4. Run The Post-Login Validation Prompt
+## Step 4. Run A Narrow Preflight Probe
 
 Use:
-- `verification/hermes-post-login-direct-validation-query.txt`
+- `verification/hermes-direct-detail-probe-2026-04-16.txt`
 
-The prompt assumes:
-- the connected live Chrome session is already logged in
-- Hermes should reuse the current authenticated browser context
-- Hermes must stop if the session is no longer valid
+Expected result:
+- confirm that Hermes can still read one direct `detail.1688.com` page in the live authenticated session
+- stop early if the session has silently fallen back to login again
 
-## Step 5. Record The Outcome
+## Step 5. Run Search Harvest
+
+Use:
+- `verification/hermes-post-login-search-harvest-query.txt`
+
+Save the output as:
+- `verification/hermes-post-login-candidate-set-YYYY-MM-DD.json`
+
+Execution rule:
+- keep the run bounded
+- do not let Hermes expand into open-ended search browsing
+- stop after the candidate set is written
+
+## Step 6. Run Evidence Pass
+
+Use:
+- `verification/hermes-post-login-evidence-pass-query.txt`
+
+Before running, replace `{{CANDIDATE_SET_PATH}}` in the prompt body with the actual candidate-set path.
+
+Save the output as:
+- `verification/hermes-post-login-evidence-notes-YYYY-MM-DD.json`
+
+Execution rule:
+- inspect only the harvested candidates
+- collect visible facts, judgments, unknowns, and representative-product links
+- do not branch back into broad search
+
+## Step 7. Run Report Synthesis
+
+Use:
+- `verification/hermes-post-login-report-synthesis-query.txt`
+
+Before running, replace `{{EVIDENCE_NOTES_PATH}}` in the prompt body with the actual evidence-notes path.
+
+Save the output as:
+- `reports/hermes-post-login-direct-YYYY-MM-DD.md`
+
+Execution rule:
+- synthesize only from the reviewed evidence
+- if fewer than three credible suppliers remain, emit a partial report rather than padding the shortlist
+
+## Step 8. Record The Outcome
 
 If the run succeeds, persist:
+- `verification/hermes-post-login-candidate-set-YYYY-MM-DD.json`
+- `verification/hermes-post-login-evidence-notes-YYYY-MM-DD.json`
 - a canonical Markdown report
 - a `run-result.json`
 - a validation note describing that the run used operator-assisted login through live Chrome CDP
@@ -105,6 +148,12 @@ Use these templates:
 
 If the run fails, record:
 - whether the failure was login expiry, redirect to login, page instability, or supplier-page access failure
+
+The earlier monolithic prompt remains available here:
+- `verification/hermes-post-login-direct-validation-query.txt`
+
+Treat it as a regression or comparison prompt only.
+For new validations, prefer the phased prompts above.
 
 ## Important Boundary
 

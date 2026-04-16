@@ -19,6 +19,11 @@ Map Hermes tools to these required actions:
 5. Produce the final report with `../../core/output-contract.md`
 6. If blocked, downgrade using `../../core/failure-playbook.md`
 
+When Hermes is running against an operator-provided authenticated browser session or any host with a tight iteration budget, prefer staged execution:
+1. search harvest into `candidate-set.json`
+2. evidence pass into `evidence-notes.json`
+3. final report synthesis into Markdown
+
 ## Guardrails
 
 - single product direction only
@@ -28,4 +33,5 @@ Map Hermes tools to these required actions:
 - keep one anchor representative product per supplier unless a second product has its own distinct inspected link
 - if Hermes emits banners, duplicated completions, or session metadata, trim them before saving the canonical Markdown report artifact
 - if direct-site access requires login, prefer an operator-provided authenticated browser session over any automated login attempt
+- if the session is brittle, do not mix open-ended search expansion and report synthesis in one run
 - no anti-bot bypass or hidden-interface work

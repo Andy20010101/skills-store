@@ -1,0 +1,59 @@
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_lunch_box_001",
+  "phase": "search_harvest",
+  "evidence_mode": "direct_1688",
+  "search_strategy": {
+    "phrases_attempted": [
+      "保温饭盒",
+      "不锈钢 保温 饭盒"
+    ],
+    "phrase_limit": 2,
+    "product_page_open_limit_per_phrase": 2,
+    "notes": [
+      "used constrained-host mode to avoid spending the authenticated session on open-ended search",
+      "stopped after harvesting two high-signal candidates"
+    ]
+  },
+  "search_page_links": [
+    "https://s.1688.com/selloffer/offer_search.htm?keywords=%E4%BF%9D%E6%B8%A9%E9%A5%AD%E7%9B%92"
+  ],
+  "candidates": [
+    {
+      "candidate_id": "cand_xuanjiang_001",
+      "rank": 1,
+      "search_phrase": "保温饭盒",
+      "supplier_name": "潮州市潮安区彩塘镇轩匠五金制品厂",
+      "product_title": "304不锈钢保温饭盒上班族便携带饭桶学生提锅便当盒汤壶碗",
+      "evidence_page_link": "https://detail.1688.com/offer/851436523899.html",
+      "source_1688_link": "https://detail.1688.com/offer/851436523899.html",
+      "supplier_page_link": "https://shop07866986b0436.1688.com/?offerId=851436523899&td_page_id=PC-DEFAULT-2025",
+      "visible_clues": [
+        "title visibly contains 304不锈钢",
+        "新人价 ¥18.50 起",
+        "1个起批",
+        "shop identity stayed stable on the linked shop page"
+      ],
+      "selection_reason": "strong category fit and visible price or MOQ clues made this the highest-signal candidate in the bounded direct search pass"
+    },
+    {
+      "candidate_id": "cand_xinboer_002",
+      "rank": 2,
+      "search_phrase": "不锈钢 保温 饭盒",
+      "supplier_name": "潮州市潮安区辛博尔不锈钢制品厂",
+      "product_title": "304不锈钢保温饭盒多层午餐盒成人学生带饭盒分格便当盒商超礼品",
+      "evidence_page_link": "https://detail.1688.com/offer/672143711850.html",
+      "source_1688_link": "https://detail.1688.com/offer/672143711850.html",
+      "visible_clues": [
+        "product page title matched the target product direction",
+        "2件起批",
+        "seller name was visible",
+        "承诺48小时发货"
+      ],
+      "selection_reason": "the direct detail page stayed readable in the authenticated session and showed enough visible signals to justify deeper supplier review"
+    }
+  ],
+  "limitations": [
+    "direct search results remained noisy enough that harvesting was intentionally capped before a full shortlist"
+  ]
+}
