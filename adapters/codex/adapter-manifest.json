@@ -31,6 +31,7 @@
     "direct 1688 availability depends on the current Codex browsing environment"
   ],
   "notes": [
-    "Current validation status is partial because mirror-assisted evidence is proven but direct 1688 access was not proven in the same environment."
+    "Current validation status is partial because mirror-assisted evidence is proven but direct 1688 access was not proven in the same environment.",
+    "A direct-site recheck on April 16, 2026 found that direct search still degraded into an anti-bot punish flow while direct product detail HTML was reachable outside the browser tool; browser-readable validated_direct support is still not justified."
   ]
 }
