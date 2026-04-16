@@ -52,6 +52,7 @@ When a raw transcript is kept, `run-result.json` should still point at the clean
 For Hermes specifically, the repo now also includes an operator-assisted login path for direct-site validation:
 - [verification/hermes-operator-assisted-login-workflow.md](verification/hermes-operator-assisted-login-workflow.md)
 - [verification/hermes-post-login-direct-validation-query.txt](verification/hermes-post-login-direct-validation-query.txt)
+- `verification/templates/` for post-login validation note and `run-result.json` templates
 
 ## Important Boundary
 

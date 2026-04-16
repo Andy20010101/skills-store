@@ -97,6 +97,12 @@ If the run succeeds, persist:
 - a `run-result.json`
 - a validation note describing that the run used operator-assisted login through live Chrome CDP
 
+Use these templates:
+- `verification/templates/hermes-post-login-validation-note-template.md`
+- `verification/templates/hermes-post-login-run-result.success-template.json`
+- `verification/templates/hermes-post-login-run-result.partial-template.json`
+- `verification/templates/hermes-post-login-run-result.blocked-template.json`
+
 If the run fails, record:
 - whether the failure was login expiry, redirect to login, page instability, or supplier-page access failure
 

@@ -1,0 +1,17 @@
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_lunch_box_001",
+  "status": "blocked",
+  "evidence_mode": "none",
+  "summary": "Hermes reused an operator-prepared browser session, but direct-site validation still blocked before a usable supplier-discovery report could be produced.",
+  "blockers": [
+    "replace with the exact blocker, such as redirect-to-login, supplier-page failure, or browser instability"
+  ],
+  "limitations": [
+    "replace with any additional limitations observed during the attempted run"
+  ],
+  "report_artifacts": {
+    "report_markdown_ref": "verification/hermes-post-login-direct-YYYY-MM-DD.md",
+    "run_notes_ref": "verification/hermes-post-login-direct-YYYY-MM-DD.md"
+  }
+}

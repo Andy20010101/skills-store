@@ -1,0 +1,21 @@
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_lunch_box_001",
+  "status": "partial",
+  "evidence_mode": "direct_1688",
+  "supplier_count": 1,
+  "collected_supplier_names": [
+    "replace supplier name if any were collected"
+  ],
+  "summary": "Hermes reused an operator-provided authenticated browser session and collected some direct-site evidence, but the full supplier-discovery workflow did not complete.",
+  "blockers": [
+    "replace with the exact page type or workflow step that failed"
+  ],
+  "limitations": [
+    "replace with remaining scope limits, such as supplier-page instability or session expiry"
+  ],
+  "report_artifacts": {
+    "report_markdown_ref": "reports/hermes-post-login-direct-YYYY-MM-DD.md",
+    "run_notes_ref": "verification/hermes-post-login-direct-YYYY-MM-DD.md"
+  }
+}
