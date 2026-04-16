@@ -1,0 +1,35 @@
+You are running a live Hermes browser-side validation for this repository.
+
+Use browser tools on real pages in this run.
+Do not rely on prior local validation notes as evidence unless you separately confirm the same facts by opening the pages yourself now.
+Do not edit repository files.
+
+First read these local files for the contract:
+- adapters/hermes/PROMPT.md
+- core/output-contract.md
+- core/failure-playbook.md
+- interface/examples/research-request.example.json
+
+Validation objective:
+- Determine whether Hermes can complete a browser-first 1688 supplier-discovery run in the current host.
+- Prefer direct 1688 pages first.
+- If direct 1688 search or detail pages are blocked, follow the failure playbook.
+- If direct access is blocked but mirror pages remain accessible, you may produce a clearly labeled `mirror_assisted` partial report based only on pages you actually opened in this run.
+
+Direct URLs to try first:
+- https://s.1688.com/selloffer/offer_search.htm?keywords=%E4%B8%8D%E9%94%88%E9%92%A2%20%E4%BF%9D%E6%B8%A9%20%E9%A5%AD%E7%9B%92
+- https://detail.1688.com/offer/672143711850.html
+- https://detail.1688.com/offer/594037284720.html
+
+Mirror fallback URLs if direct pages are blocked:
+- https://sino2b.com/us/products/641818247570.html
+- https://www.1688wholesale.com/en/1688/china_alibaba_item/672143711850.html
+- https://www.1688wholesale.com/en/1688/china_alibaba_item/594037284720.html
+
+Output requirements:
+- Produce exactly one Markdown report following core/output-contract.md, or a partial/blocker report following core/failure-playbook.md if a full run is impossible.
+- Keep facts, heuristics, and unknowns separate.
+- Only cite evidence links you actually opened in this run.
+- If direct 1688 was not fully usable, say so explicitly in Run Notes.
+- Do not wrap the answer in code fences.
+- Do not add explanations before or after the report.
