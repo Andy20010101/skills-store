@@ -1,0 +1,34 @@
+{
+  "interface_version": "1.0.0",
+  "adapter_id": "codex-web-example",
+  "agent_family": "codex",
+  "validation_status": "validated_partial",
+  "entrypoints": {
+    "primary_prompt": "SKILL.md",
+    "support_docs": [
+      "README.md",
+      "core/agent-capability-contract.md"
+    ]
+  },
+  "capabilities": {
+    "browser_navigation": true,
+    "visible_page_reading": true,
+    "supplier_page_traversal": true,
+    "markdown_output": true,
+    "keyword_search_assist": true,
+    "screenshots": false,
+    "tab_management": false
+  },
+  "operation_mapping": {
+    "navigate_page": "Use host browsing tools to open 1688 or mirror pages",
+    "read_visible_content": "Use host page-reading tools only on visible page content",
+    "open_supplier_or_product_link": "Follow shortlisted supplier and product links inside the same browsing session",
+    "write_markdown_report": "Write a supplier-first Markdown report as the final artifact"
+  },
+  "constraints": [
+    "direct 1688 reachability is environment-dependent"
+  ],
+  "notes": [
+    "validated partial means mirror-assisted evidence has been proven, not direct 1688 support"
+  ]
+}

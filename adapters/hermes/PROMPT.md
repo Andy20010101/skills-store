@@ -1,6 +1,7 @@
 # 1688 Supplier Discovery For Hermes
 
 Use this package as a host adapter over the shared contract in `../../core/`.
+If Hermes can consume structured artifacts, pair this prompt with the JSON schemas in `../../interface/`.
 
 ## Required Capabilities
 

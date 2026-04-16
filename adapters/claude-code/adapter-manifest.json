@@ -1,0 +1,34 @@
+{
+  "interface_version": "1.0.0",
+  "adapter_id": "claude-code-doc-adapter",
+  "agent_family": "claude-code",
+  "validation_status": "not_validated",
+  "entrypoints": {
+    "primary_prompt": "CLAUDE.md",
+    "support_docs": [
+      "README.md",
+      "interface/README.md"
+    ]
+  },
+  "capabilities": {
+    "browser_navigation": true,
+    "visible_page_reading": true,
+    "supplier_page_traversal": true,
+    "markdown_output": true,
+    "keyword_search_assist": true,
+    "screenshots": false,
+    "tab_management": false
+  },
+  "operation_mapping": {
+    "navigate_page": "Map Claude Code browser-capable tools to result, product, and supplier page navigation",
+    "read_visible_content": "Use only visible page content for evidence capture",
+    "open_supplier_or_product_link": "Follow shortlisted links inside the active Claude Code workflow",
+    "write_markdown_report": "Emit a supplier-first Markdown report"
+  },
+  "constraints": [
+    "This adapter is documented but not yet validated in a real Claude Code host."
+  ],
+  "notes": [
+    "Validation is still required before claiming live host support."
+  ]
+}

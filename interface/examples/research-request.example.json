@@ -1,0 +1,33 @@
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_lunch_box_001",
+  "product_direction": "stainless steel insulated lunch box",
+  "search_phrases": [
+    "不锈钢 保温 饭盒",
+    "304 不锈钢 保温 便当盒"
+  ],
+  "constraints": {
+    "price_band": "15-35 RMB ex-factory reference",
+    "moq_preference": "<= 500 if possible",
+    "preferred_supplier_regions": [
+      "Guangdong",
+      "Zhejiang"
+    ],
+    "target_materials": [
+      "304 stainless steel"
+    ]
+  },
+  "must_have_traits": [
+    "repeated category relevance",
+    "visible MOQ or price clues"
+  ],
+  "must_avoid_traits": [
+    "single unrelated listing",
+    "unclear supplier identity"
+  ],
+  "operator_notes": "first pass is supplier discovery, not final procurement",
+  "output_preferences": {
+    "report_format": "markdown",
+    "output_path": "reports/lunch-box-suppliers.md"
+  }
+}

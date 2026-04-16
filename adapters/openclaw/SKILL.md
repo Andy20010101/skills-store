@@ -6,6 +6,7 @@ description: "OpenClaw adapter for the shared 1688 supplier discovery contract. 
 # 1688 Supplier Discovery For OpenClaw
 
 This adapter wraps the shared contract in `../../core/`.
+If the host wants a machine-readable exchange layer, pair this adapter with `../../interface/`.
 
 Use these files as the source of truth:
 - [agent-capability-contract.md](../../core/agent-capability-contract.md)

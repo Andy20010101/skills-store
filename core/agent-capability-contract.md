@@ -1,6 +1,7 @@
 # Agent Capability Contract
 
 This is the shared adapter boundary for any host or agent.
+The machine-readable form of this boundary is [../interface/capability-manifest.schema.json](../interface/capability-manifest.schema.json).
 
 ## Required Capabilities
 
@@ -43,3 +44,5 @@ Before claiming a host is supported, confirm that one real run can:
 - open at least one representative product page
 - open at least one supplier page when available
 - write a supplier-first Markdown report
+
+When the host uses the structured interface, persist this check as a validated `capability-manifest.json`.

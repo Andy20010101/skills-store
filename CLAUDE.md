@@ -1,6 +1,7 @@
 # 1688 Supplier Discovery For Claude Code
 
 Use this repo as an agent-agnostic supplier research package.
+If your harness prefers machine-readable exchange over prompt-only exchange, use the schemas in `interface/`.
 
 Start from:
 - [core/agent-capability-contract.md](core/agent-capability-contract.md)

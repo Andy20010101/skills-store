@@ -1,0 +1,34 @@
+{
+  "interface_version": "1.0.0",
+  "adapter_id": "hermes-prompt-adapter",
+  "agent_family": "hermes",
+  "validation_status": "not_validated",
+  "entrypoints": {
+    "primary_prompt": "adapters/hermes/PROMPT.md",
+    "support_docs": [
+      "core/agent-capability-contract.md",
+      "interface/README.md"
+    ]
+  },
+  "capabilities": {
+    "browser_navigation": true,
+    "visible_page_reading": true,
+    "supplier_page_traversal": true,
+    "markdown_output": true,
+    "keyword_search_assist": true,
+    "screenshots": false,
+    "tab_management": false
+  },
+  "operation_mapping": {
+    "navigate_page": "Map Hermes browser tools to search, product, and supplier page navigation",
+    "read_visible_content": "Capture only visible page evidence through Hermes reading tools",
+    "open_supplier_or_product_link": "Follow shortlisted supplier and product links inside the active Hermes session",
+    "write_markdown_report": "Emit a supplier-first Markdown report artifact"
+  },
+  "constraints": [
+    "Hermes support is contract-defined but not yet live-validated."
+  ],
+  "notes": [
+    "Use this manifest together with adapters/hermes/PROMPT.md."
+  ]
+}

@@ -7,6 +7,7 @@ description: "Run low-frequency, browser-first 1688 supplier research for a sing
 
 This root `SKILL.md` is the Codex-facing adapter for the shared supplier-discovery contract in `core/`.
 If another host or agent is being used, prefer the matching adapter in `adapters/` or reuse the shared docs directly.
+If a host needs machine-readable integration instead of prompt-only integration, use the schemas in `interface/`.
 
 Use this skill when the user wants a reusable 1688 supplier research workflow for one product direction.
 

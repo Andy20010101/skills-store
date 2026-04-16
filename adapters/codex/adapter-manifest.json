@@ -1,0 +1,34 @@
+{
+  "interface_version": "1.0.0",
+  "adapter_id": "codex-root-skill",
+  "agent_family": "codex",
+  "validation_status": "validated_partial",
+  "entrypoints": {
+    "primary_prompt": "SKILL.md",
+    "support_docs": [
+      "README.md",
+      "interface/README.md"
+    ]
+  },
+  "capabilities": {
+    "browser_navigation": true,
+    "visible_page_reading": true,
+    "supplier_page_traversal": true,
+    "markdown_output": true,
+    "keyword_search_assist": true,
+    "screenshots": false,
+    "tab_management": false
+  },
+  "operation_mapping": {
+    "navigate_page": "Use Codex browser or web tooling to open result, product, and supplier pages",
+    "read_visible_content": "Read only visible page content and mirror-visible metadata",
+    "open_supplier_or_product_link": "Traverse shortlisted supplier and product links in the same run",
+    "write_markdown_report": "Write or return a supplier-first Markdown report"
+  },
+  "constraints": [
+    "direct 1688 availability depends on the current Codex browsing environment"
+  ],
+  "notes": [
+    "Current validation status is partial because mirror-assisted evidence is proven but direct 1688 access was not proven in the same environment."
+  ]
+}

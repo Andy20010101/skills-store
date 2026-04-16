@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/1688-supplier-discovery/interface/run-result.schema.json",
+  "title": "1688 Supplier Discovery Run Result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "interface_version",
+    "request_id",
+    "status",
+    "evidence_mode",
+    "report_artifacts"
+  ],
+  "properties": {
+    "interface_version": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "request_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "success",
+        "partial",
+        "blocked",
+        "failed"
+      ]
+    },
+    "evidence_mode": {
+      "type": "string",
+      "enum": [
+        "direct_1688",
+        "mirror_assisted",
+        "none"
+      ]
+    },
+    "supplier_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "collected_supplier_names": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "summary": {
+      "type": "string"
+    },
+    "blockers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "report_artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "report_markdown_ref"
+      ],
+      "properties": {
+        "report_markdown_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "run_notes_ref": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
