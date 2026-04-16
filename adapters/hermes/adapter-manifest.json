@@ -34,6 +34,7 @@
     "Use this manifest together with adapters/hermes/PROMPT.md.",
     "A local-only Hermes report generation run was exercised on April 16, 2026, including canonical-output normalization from a noisy raw transcript.",
     "A browser-side live run on April 16, 2026 launched headless Chromium and entered mirror fallback navigation, but stalled before emitting a final report artifact.",
+    "Follow-up single-page probes on April 16, 2026 showed that Hermes can emit final Markdown artifacts for a blocked direct detail page and a readable mirror page, but the full supplier-discovery compatibility test is still incomplete.",
     "Browser-side direct 1688 validation remains incomplete."
   ]
 }

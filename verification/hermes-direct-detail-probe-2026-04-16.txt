@@ -1,0 +1,37 @@
+You are running a narrow Hermes browser probe for this repository.
+
+Use browser tools on one real page only.
+Do not search the web.
+Do not edit repository files.
+Do not open additional pages unless the target page itself redirects.
+
+Target URL:
+- https://detail.1688.com/offer/672143711850.html
+
+Task:
+- Open the target page with the browser tool.
+- Try to read visible page content from that page only.
+- If the page is readable, report the visible product title and up to 5 additional visible facts from the page.
+- If the page is blocked, unreadable, or unstable, say exactly what prevented a reliable read.
+
+Output requirements:
+- Produce exactly one Markdown response.
+- Use this shape:
+
+# Hermes Direct Detail Probe
+
+## Probe Target
+- URL:
+
+## Outcome
+- Status: success | blocked
+- Readability:
+
+## Visible Facts
+- ...
+
+## Notes
+- ...
+
+- Do not wrap the answer in code fences.
+- Do not add explanations before or after the report.
