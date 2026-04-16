@@ -1,5 +1,7 @@
 # Hermes Browser-Side Live Validation
 
+Update later on 2026-04-16: this note remains a historical record of the unauthenticated host state. Hermes was later raised to `validated_partial` via the operator-assisted login flow documented in `verification/hermes-post-login-direct-2026-04-16.md`.
+
 - Validation date: 2026-04-16
 - Validation environment: Hermes CLI with `browser` and `web` toolsets enabled
 - Prompt file: `verification/hermes-browser-live-query-2026-04-16.txt`

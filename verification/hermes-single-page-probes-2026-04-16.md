@@ -1,5 +1,7 @@
 # Hermes Single-Page Browser Probes
 
+Update later on 2026-04-16: this note remains a historical record of the pre-authenticated state. Hermes was later raised to `validated_partial` through the operator-assisted login flow documented in `verification/hermes-post-login-direct-2026-04-16.md`.
+
 - Validation date: 2026-04-16
 - Goal: separate browser-read stability from full-workflow complexity after the earlier Hermes browser validation stalled
 
