@@ -27,4 +27,5 @@ Map Hermes tools to these required actions:
 - keep `Evidence page link` separate from `Source 1688 link` whenever a mirror or proxy exposes the underlying `1688.com` URL
 - keep one anchor representative product per supplier unless a second product has its own distinct inspected link
 - if Hermes emits banners, duplicated completions, or session metadata, trim them before saving the canonical Markdown report artifact
+- if direct-site access requires login, prefer an operator-provided authenticated browser session over any automated login attempt
 - no anti-bot bypass or hidden-interface work

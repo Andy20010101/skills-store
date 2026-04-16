@@ -49,6 +49,10 @@ This repo keeps both human-readable reports and machine-readable run metadata:
 
 When a raw transcript is kept, `run-result.json` should still point at the cleaned canonical Markdown artifact.
 
+For Hermes specifically, the repo now also includes an operator-assisted login path for direct-site validation:
+- [verification/hermes-operator-assisted-login-workflow.md](verification/hermes-operator-assisted-login-workflow.md)
+- [verification/hermes-post-login-direct-validation-query.txt](verification/hermes-post-login-direct-validation-query.txt)
+
 ## Important Boundary
 
 This package defines a low-frequency supplier research workflow.
