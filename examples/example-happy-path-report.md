@@ -8,10 +8,17 @@ It is not evidence of a live validated run.
 
 ## Research Brief
 - Product direction: stainless steel insulated lunch box
-- Search phrases used: 不锈钢 保温 饭盒, 便携 保温 餐盒, 304 不锈钢 保温 便当盒
-- Constraints: ex-factory reference price roughly 15-35 RMB, MOQ preferably <= 500, supplier should show repeated category relevance
+- Search phrases used:
+  - 不锈钢 保温 饭盒
+  - 便携 保温 餐盒
+  - 304 不锈钢 保温 便当盒
+- Constraints:
+  - ex-factory reference price roughly 15-35 RMB
+  - MOQ preferably <= 500
+  - supplier should show repeated category relevance
 
 ## Run Notes
+- Evidence mode: direct_1688
 - Host capability assumptions: browser navigation, page reading, and Markdown output all available
 - Access limitations: none observed during this illustrative example
 - Important caveats: supplier quality remains a heuristic judgment based on visible signals only
@@ -19,7 +26,7 @@ It is not evidence of a live validated run.
 ## Supplier Shortlist
 
 ### 1. Yongkang Example Metalware Co.
-- Supplier link: https://detail.1688.example/supplier-1
+- Evidence page link: https://detail.1688.example/supplier-1
 - Why shortlisted: supplier page and product pages both show repeated insulated lunch-box variants and enough commercial detail to support a revisit
 
 #### Page-Visible Facts
@@ -38,16 +45,16 @@ It is not evidence of a live validated run.
 
 #### Representative Products
 1. Vacuum insulated lunch box set
-   - Link: https://detail.1688.example/product-1a
+   - Evidence link: https://detail.1688.example/product-1a
    - Visible price / MOQ: 18.5-24 RMB, MOQ 200
    - Notes: visible size options and color variants
 2. Stainless steel thermal food container
-   - Link: https://detail.1688.example/product-1b
+   - Evidence link: https://detail.1688.example/product-1b
    - Visible price / MOQ: 22-31 RMB, MOQ 120
    - Notes: title and images suggest multi-layer format
 
 ### 2. Chaozhou Example Kitchenware Factory
-- Supplier link: https://detail.1688.example/supplier-2
+- Evidence page link: https://detail.1688.example/supplier-2
 - Why shortlisted: product range is narrower but still visibly relevant and commercially usable
 
 #### Page-Visible Facts
@@ -63,7 +70,7 @@ It is not evidence of a live validated run.
 
 #### Representative Products
 1. Portable insulated meal container
-   - Link: https://detail.1688.example/product-2a
+   - Evidence link: https://detail.1688.example/product-2a
    - Visible price / MOQ: 16-21 RMB, MOQ 300
    - Notes: page gives enough detail for a next-pass revisit
 

@@ -15,6 +15,7 @@
     "visible_page_reading": true,
     "supplier_page_traversal": true,
     "markdown_output": true,
+    "output_normalization": true,
     "keyword_search_assist": true,
     "screenshots": false,
     "tab_management": false
@@ -23,7 +24,8 @@
     "navigate_page": "Use Codex browser or web tooling to open result, product, and supplier pages",
     "read_visible_content": "Read only visible page content and mirror-visible metadata",
     "open_supplier_or_product_link": "Traverse shortlisted supplier and product links in the same run",
-    "write_markdown_report": "Write or return a supplier-first Markdown report"
+    "write_markdown_report": "Write or return a supplier-first Markdown report",
+    "normalize_final_output": "Persist the canonical Markdown report artifact; if the host output is already clean, keep the raw and canonical outputs identical"
   },
   "constraints": [
     "direct 1688 availability depends on the current Codex browsing environment"

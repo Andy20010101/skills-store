@@ -10,6 +10,7 @@ A compatible host must be able to do all of these:
 - read visible page content with enough stability to capture facts
 - follow links across a small candidate set
 - write a Markdown report to a file or return it as final output
+- emit clean Markdown directly or support adapter-side normalization of raw host output into a canonical report artifact
 
 ## Optional But Useful Capabilities
 
@@ -25,8 +26,21 @@ Every adapter should map native tools to the same conceptual operations:
 - `read_visible_content`
 - `open_supplier_or_product_link`
 - `write_markdown_report`
+- `normalize_final_output`
 
 The adapter may rename those operations, but it must not change the underlying business contract.
+
+## Output Normalization Rule
+
+Adapters are responsible for the final saved report artifact, not just the host's raw transcript.
+
+That means the adapter should:
+- preserve the exact page that was inspected as `Evidence page link`
+- preserve the underlying `1688.com` URL separately as `Source 1688 link` when a mirror or proxy exposes one
+- strip banners, duplicated completions, session ids, and other non-report wrappers before saving the canonical Markdown artifact
+- point `run-result.json` at the canonical report artifact, not the noisy raw transcript
+
+If the raw transcript is still useful, store it separately and reference it through `run_notes_ref`.
 
 ## Non-Goals
 
@@ -43,6 +57,6 @@ Before claiming a host is supported, confirm that one real run can:
 - open a target result page
 - open at least one representative product page
 - open at least one supplier page when available
-- write a supplier-first Markdown report
+- write a clean supplier-first Markdown report after any required normalization
 
 When the host uses the structured interface, persist this check as a validated `capability-manifest.json`.

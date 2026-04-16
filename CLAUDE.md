@@ -14,6 +14,9 @@ Rules:
 - keep the run to one product direction
 - use only visible page evidence
 - separate facts, heuristics, and unknowns
+- keep `Evidence page link` and `Source 1688 link` separate when they differ
+- do not create extra representative-product rows unless there is a distinct inspected link
+- normalize the saved Markdown artifact if the host emits wrappers, duplicated completions, or session metadata
 - do not attempt captcha bypass or hidden-interface fallback
 - if direct `1688.com` access fails, use the downgrade path in [core/failure-playbook.md](core/failure-playbook.md)
 

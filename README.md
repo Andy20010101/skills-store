@@ -14,6 +14,8 @@ This repo is structured so the same business logic can be reused across:
 - `core/`: shared research contract, rubric, output schema, and failure policy
 - `interface/`: machine-readable request, capability, and run-result schemas
 - `examples/`: sample reports and live validation evidence
+- `reports/`: canonical run artifacts produced by specific agent executions
+- `verification/`: interop notes, prompts, and convergence records for agent-to-agent checks
 - `adapters/`: host-specific prompt or skill entrypoints
 - root `SKILL.md`: Codex adapter
 
@@ -35,7 +37,17 @@ Different hosts should exchange the same three surfaces:
 - `run-result.json`: validated by [interface/run-result.schema.json](interface/run-result.schema.json)
 
 The human-readable report still follows [core/output-contract.md](core/output-contract.md).
+The saved report artifact should be a clean canonical Markdown file, not a raw host transcript with banners or session metadata.
 See [interface/README.md](interface/README.md) for the full flow.
+
+## Validation Artifacts
+
+This repo keeps both human-readable reports and machine-readable run metadata:
+- canonical reports live under `reports/`
+- raw or noisy host transcripts may also live under `reports/` when worth preserving
+- interop prompts, request files, and convergence notes live under `verification/`
+
+When a raw transcript is kept, `run-result.json` should still point at the cleaned canonical Markdown artifact.
 
 ## Important Boundary
 

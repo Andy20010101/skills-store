@@ -1,0 +1,25 @@
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_lunch_box_001",
+  "status": "partial",
+  "evidence_mode": "mirror_assisted",
+  "supplier_count": 3,
+  "collected_supplier_names": [
+    "Shitai / shitai stainless steel",
+    "潮州市潮安区辛博尔不锈钢制品厂",
+    "潮州市潮安区奔展不锈钢制品有限公司"
+  ],
+  "summary": "Hermes completed a local-only report generation run from the repository's validated mirror-assisted evidence and produced a supplier-first Markdown shortlist with three candidates.",
+  "blockers": [
+    "direct 1688 page opening was not proven in the current validation environment"
+  ],
+  "limitations": [
+    "this run reused the repo's validated April 16 evidence instead of performing a fresh direct-site browse",
+    "supplier profile pages were not fully validated through direct 1688 access",
+    "the raw Hermes output included duplicated report content and a session trailer, so the saved Markdown report was trimmed from the raw artifact"
+  ],
+  "report_artifacts": {
+    "report_markdown_ref": "reports/hermes-lunch-box-suppliers.md",
+    "run_notes_ref": "reports/hermes-lunch-box-suppliers.raw.txt"
+  }
+}

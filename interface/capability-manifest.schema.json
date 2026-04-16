@@ -67,7 +67,8 @@
         "browser_navigation",
         "visible_page_reading",
         "supplier_page_traversal",
-        "markdown_output"
+        "markdown_output",
+        "output_normalization"
       ],
       "properties": {
         "browser_navigation": {
@@ -80,6 +81,9 @@
           "type": "boolean"
         },
         "markdown_output": {
+          "type": "boolean"
+        },
+        "output_normalization": {
           "type": "boolean"
         },
         "keyword_search_assist": {
@@ -100,7 +104,8 @@
         "navigate_page",
         "read_visible_content",
         "open_supplier_or_product_link",
-        "write_markdown_report"
+        "write_markdown_report",
+        "normalize_final_output"
       ],
       "properties": {
         "navigate_page": {
@@ -116,6 +121,10 @@
           "minLength": 1
         },
         "write_markdown_report": {
+          "type": "string",
+          "minLength": 1
+        },
+        "normalize_final_output": {
           "type": "string",
           "minLength": 1
         }

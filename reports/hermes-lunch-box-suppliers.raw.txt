@@ -1,0 +1,243 @@
+
+╭─ ⚕ Hermes ───────────────────────────────────────────────────────────────────╮
+# 1688 Supplier Discovery Report
+
+## Research Brief
+- Product direction: stainless steel insulated lunch box
+- Search phrases used:
+  - 不锈钢 保温 饭盒
+  - 304 不锈钢 保温 便当盒
+- Constraints:
+  - price band: 15-35 RMB ex-factory reference
+  - MOQ preference: <= 500 if possible
+  - preferred supplier regions: Guangdong, Zhejiang
+  - target materials: 304 stainless steel
+
+## Run Notes
+- Host capability assumptions: local repository only; report assembled from existing validation files in this repo
+- Access limitations: direct `1688.com` search/detail access was not proven in the current environment
+- Important caveats: the shortlist is based on mirror-accessible evidence with source URLs shown by the mirrors; supplier profile pages were not directly validated
+
+## Supplier Shortlist
+
+### 1. Shitai / `shitai stainless steel`
+- Supplier link: https://detail.1688.com/offer/641818247570.html
+- Why shortlisted: strongest visible evidence in the local validation set; clear 304 stainless-steel insulated lunch-box signals, very low MOQ, and high sales volume
+
+#### Page-Visible Facts
+- Mirror page: https://sino2b.com/us/products/641818247570.html
+- Source URL shown by mirror: https://detail.1688.com/offer/641818247570.html
+- MOQ shown as `>=2 piece`
+- 90-day sales shown as `200k`
+- product details show `304 stainless steel`
+- visible capacities include `1.2L`, `1.6L`, and `2.6L`
+- mirror page shows `Insulation or not: Yes`
+- mirror page shows `Box layers: Three layers`
+- mirror page shows `Printed LOGO: OK`
+- mirror page shows `Customized processing: Yes`
+
+#### Heuristic Judgments
+- strongest visible evidence in this run
+- product detail completeness is higher than the other candidates
+- looks more reviewable for a follow-up sourcing pass than weaker single-listing candidates
+
+#### Unknowns
+- factory ownership is still not directly proven
+- supplier page itself was not directly validated in this environment
+- certification, lead time, and export experience remain unknown
+
+#### Representative Products
+1. Mirror-listed 304 stainless-steel insulated lunch box
+   - Link: https://detail.1688.com/offer/641818247570.html
+   - Visible price / MOQ: MOQ `>=2 piece`; visible price not captured in the local note
+   - Notes: visible capacities `1.2L`, `1.6L`, `2.6L`; three-layer structure; customization visible
+
+### 2. 潮州市潮安区辛博尔不锈钢制品厂
+- Supplier link: https://detail.1688.com/offer/672143711850.html
+- Why shortlisted: strongest repeated category evidence among the mirror pages hosted on `1688wholesale.com`
+
+#### Page-Visible Facts
+- Mirror page: https://www.1688wholesale.com/en/1688/china_alibaba_item/672143711850.html
+- Source URL shown by mirror: https://detail.1688.com/offer/672143711850.html
+- main product page shows `US.$4.29` and MOQ `>=2`
+- the mirror page lists multiple related stainless-steel lunch-box products from the same supplier
+- visible related lunch-box prices include `US.$3.86`, `US.$6.87`, `US.$3.29`, and `US.$4.29`
+- visible related lunch-box MOQs include `>=2`, `>=30`, and `>=32`
+- the same supplier page also shows a related stainless-steel soup pot listing
+
+#### Heuristic Judgments
+- strongest repeated category evidence among the mirror pages hosted on `1688wholesale.com`
+- looks more category-focused than a seller with only one lunch-box listing and unrelated follow-on products
+
+#### Unknowns
+- supplier profile page was not directly validated
+- no visible proof of factory-direct status in the current environment
+- material claims beyond listing titles were not independently confirmed
+
+#### Representative Products
+1. Mirror-listed stainless-steel lunch-box product
+   - Link: https://detail.1688.com/offer/672143711850.html
+   - Visible price / MOQ: `US.$4.29`; MOQ `>=2`
+   - Notes: related lunch-box listings on the same supplier page show additional prices and MOQs, supporting category repetition
+
+### 3. 潮州市潮安区奔展不锈钢制品有限公司
+- Supplier link: https://detail.1688.com/offer/594037284720.html
+- Why shortlisted: usable low-confidence candidate because the product is on target and MOQ is visible
+
+#### Page-Visible Facts
+- Mirror page: https://www.1688wholesale.com/en/1688/china_alibaba_item/594037284720.html
+- Source URL shown by mirror: https://detail.1688.com/offer/594037284720.html
+- main product page shows `US.$4.25` and MOQ `>=2`
+- supplier name is visible on the mirror page
+- at least one related product snippet is visible from the same supplier: classic stainless-steel kettle at `US.$4.35`, MOQ `>=2`
+
+#### Heuristic Judgments
+- still usable as a low-confidence candidate because the product itself is on target and MOQ is visible
+- weaker than the first two suppliers because visible related-product breadth is thinner and less lunch-box-specific
+
+#### Unknowns
+- no clear supplier-page validation
+- category focus is less certain than supplier 1 and supplier 2
+- no visible proof of manufacturing depth
+
+#### Representative Products
+1. Mirror-listed stainless-steel lunch-box product
+   - Link: https://detail.1688.com/offer/594037284720.html
+   - Visible price / MOQ: `US.$4.25`; MOQ `>=2`
+   - Notes: related stainless-steel kettle snippet appears on the same supplier page
+
+## Rejected or Lower-Priority Candidates
+- Candidate: direct `1688.com` search and detail pages
+- Why not prioritized: direct access failed in this environment; validation evidence shows only mirror-accessible pages with source URLs, not proven direct-site readability
+
+## Next Actions
+- Which suppliers to revisit first:
+  1. Shitai / `shitai stainless steel`
+  2. 潮州市潮安区辛博尔不锈钢制品厂
+  3. 潮州市潮安区奔展不锈钢制品有限公司
+- Which unknowns need manual confirmation:
+  - direct `1688.com` page access in the target environment
+  - supplier profile / factory-direct status
+  - lead time, certification, and export experience
+# 1688 Supplier Discovery Report
+
+## Research Brief
+- Product direction: stainless steel insulated lunch box
+- Search phrases used:
+  - 不锈钢 保温 饭盒
+  - 304 不锈钢 保温 便当盒
+- Constraints:
+  - price band: 15-35 RMB ex-factory reference
+  - MOQ preference: <= 500 if possible
+  - preferred supplier regions: Guangdong, Zhejiang
+  - target materials: 304 stainless steel
+
+## Run Notes
+- Host capability assumptions: local repository only; report assembled from existing validation files in this repo
+- Access limitations: direct `1688.com` search/detail access was not proven in the current environment
+- Important caveats: the shortlist is based on mirror-accessible evidence with source URLs shown by the mirrors; supplier profile pages were not directly validated
+
+## Supplier Shortlist
+
+### 1. Shitai / `shitai stainless steel`
+- Supplier link: https://detail.1688.com/offer/641818247570.html
+- Why shortlisted: strongest visible evidence in the local validation set; clear 304 stainless-steel insulated lunch-box signals, very low MOQ, and high sales volume
+
+#### Page-Visible Facts
+- Mirror page: https://sino2b.com/us/products/641818247570.html
+- Source URL shown by mirror: https://detail.1688.com/offer/641818247570.html
+- MOQ shown as `>=2 piece`
+- 90-day sales shown as `200k`
+- product details show `304 stainless steel`
+- visible capacities include `1.2L`, `1.6L`, and `2.6L`
+- mirror page shows `Insulation or not: Yes`
+- mirror page shows `Box layers: Three layers`
+- mirror page shows `Printed LOGO: OK`
+- mirror page shows `Customized processing: Yes`
+
+#### Heuristic Judgments
+- strongest visible evidence in this run
+- product detail completeness is higher than the other candidates
+- looks more reviewable for a follow-up sourcing pass than weaker single-listing candidates
+
+#### Unknowns
+- factory ownership is still not directly proven
+- supplier page itself was not directly validated in this environment
+- certification, lead time, and export experience remain unknown
+
+#### Representative Products
+1. Mirror-listed 304 stainless-steel insulated lunch box
+   - Link: https://detail.1688.com/offer/641818247570.html
+   - Visible price / MOQ: MOQ `>=2 piece`; visible price not captured in the local note
+   - Notes: visible capacities `1.2L`, `1.6L`, `2.6L`; three-layer structure; customization visible
+
+### 2. 潮州市潮安区辛博尔不锈钢制品厂
+- Supplier link: https://detail.1688.com/offer/672143711850.html
+- Why shortlisted: strongest repeated category evidence among the mirror pages hosted on `1688wholesale.com`
+
+#### Page-Visible Facts
+- Mirror page: https://www.1688wholesale.com/en/1688/china_alibaba_item/672143711850.html
+- Source URL shown by mirror: https://detail.1688.com/offer/672143711850.html
+- main product page shows `US.$4.29` and MOQ `>=2`
+- the mirror page lists multiple related stainless-steel lunch-box products from the same supplier
+- visible related lunch-box prices include `US.$3.86`, `US.$6.87`, `US.$3.29`, and `US.$4.29`
+- visible related lunch-box MOQs include `>=2`, `>=30`, and `>=32`
+- the same supplier page also shows a related stainless-steel soup pot listing
+
+#### Heuristic Judgments
+- strongest repeated category evidence among the mirror pages hosted on `1688wholesale.com`
+- looks more category-focused than a seller with only one lunch-box listing and unrelated follow-on products
+
+#### Unknowns
+- supplier profile page was not directly validated
+- no visible proof of factory-direct status in the current environment
+- material claims beyond listing titles were not independently confirmed
+
+#### Representative Products
+1. Mirror-listed stainless-steel lunch-box product
+   - Link: https://detail.1688.com/offer/672143711850.html
+   - Visible price / MOQ: `US.$4.29`; MOQ `>=2`
+   - Notes: related lunch-box listings on the same supplier page show additional prices and MOQs, supporting category repetition
+
+### 3. 潮州市潮安区奔展不锈钢制品有限公司
+- Supplier link: https://detail.1688.com/offer/594037284720.html
+- Why shortlisted: usable low-confidence candidate because the product is on target and MOQ is visible
+
+#### Page-Visible Facts
+- Mirror page: https://www.1688wholesale.com/en/1688/china_alibaba_item/594037284720.html
+- Source URL shown by mirror: https://detail.1688.com/offer/594037284720.html
+- main product page shows `US.$4.25` and MOQ `>=2`
+- supplier name is visible on the mirror page
+- at least one related product snippet is visible from the same supplier: classic stainless-steel kettle at `US.$4.35`, MOQ `>=2`
+
+#### Heuristic Judgments
+- still usable as a low-confidence candidate because the product itself is on target and MOQ is visible
+- weaker than the first two suppliers because visible related-product breadth is thinner and less lunch-box-specific
+
+#### Unknowns
+- no clear supplier-page validation
+- category focus is less certain than supplier 1 and supplier 2
+- no visible proof of manufacturing depth
+
+#### Representative Products
+1. Mirror-listed stainless-steel lunch-box product
+   - Link: https://detail.1688.com/offer/594037284720.html
+   - Visible price / MOQ: `US.$4.25`; MOQ `>=2`
+   - Notes: related stainless-steel kettle snippet appears on the same supplier page
+
+## Rejected or Lower-Priority Candidates
+- Candidate: direct `1688.com` search and detail pages
+- Why not prioritized: direct access failed in this environment; validation evidence shows only mirror-accessible pages with source URLs, not proven direct-site readability
+
+## Next Actions
+- Which suppliers to revisit first:
+  1. Shitai / `shitai stainless steel`
+  2. 潮州市潮安区辛博尔不锈钢制品厂
+  3. 潮州市潮安区奔展不锈钢制品有限公司
+- Which unknowns need manual confirmation:
+  - direct `1688.com` page access in the target environment
+  - supplier profile / factory-direct status
+  - lead time, certification, and export experience
+  - exact price bands on the direct product pages
+
+session_id: 20260416_114953_212225

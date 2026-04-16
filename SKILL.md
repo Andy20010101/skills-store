@@ -74,13 +74,17 @@ Use [supplier-rubric.md](core/supplier-rubric.md) while reading pages.
 
 - Output a supplier-first Markdown report.
 - Follow [output-contract.md](core/output-contract.md).
+- Keep `Evidence page link` separate from `Source 1688 link` when mirror-assisted evidence is used.
 - Include original links for every supplier and representative product cited.
+- If the host emits wrappers, banners, duplicated completions, or session trailers, normalize the saved report artifact before writing `run-result.json`.
 
 ## Quality Rules
 
 - Facts are only what is visibly present on the page.
 - Heuristics are allowed, but they must be labeled as judgment.
 - Unknowns must stay explicit.
+- Do not collapse mirror evidence and underlying `1688.com` source URLs into one ambiguous link field.
+- Do not invent multiple representative-product rows from snippet evidence on the same page when there is no distinct inspected link.
 - Do not convert sparse signals into pseudo-precision scoring.
 - Prefer 3 to 8 suppliers in the first pass unless the market is clearly thinner.
 

@@ -20,4 +20,6 @@ Use these files as the source of truth:
 OpenClaw-specific expectation:
 - use the host's existing browser and page-reading tools
 - write a Markdown report as the final artifact
+- keep `Evidence page link` and `Source 1688 link` separate when mirror-assisted evidence is used
+- normalize the saved report artifact if the host emits any non-report wrappers
 - do not require runtime-core changes to execute the workflow

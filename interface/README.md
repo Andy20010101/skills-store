@@ -47,14 +47,18 @@ The structured result does not replace the human-readable report.
 The Markdown report must still follow:
 - [../core/output-contract.md](../core/output-contract.md)
 
+`report_artifacts.report_markdown_ref` should point to the clean canonical report artifact.
+If a host produces noisy raw output that still needs to be preserved, store that separately and point `report_artifacts.run_notes_ref` at the raw transcript or operator notes.
+
 ## Suggested Runtime Flow
 
 1. load `capability-manifest.json`
 2. validate the incoming `request.json`
 3. run preflight against the declared capabilities
 4. execute the research workflow from `core/`
-5. write the Markdown report
-6. write `run-result.json`
+5. normalize the canonical Markdown report artifact if the host emitted wrappers or duplicate content
+6. write the Markdown report artifact reference
+7. write `run-result.json`
 
 ## Example Files
 

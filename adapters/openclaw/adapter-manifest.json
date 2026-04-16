@@ -15,6 +15,7 @@
     "visible_page_reading": true,
     "supplier_page_traversal": true,
     "markdown_output": true,
+    "output_normalization": true,
     "keyword_search_assist": true,
     "screenshots": false,
     "tab_management": false
@@ -23,7 +24,8 @@
     "navigate_page": "Use OpenClaw browser-navigation tools for 1688 result, product, and supplier pages",
     "read_visible_content": "Use OpenClaw page-reading tools on visible content only",
     "open_supplier_or_product_link": "Open shortlisted supplier and product links within the active OpenClaw run",
-    "write_markdown_report": "Write the final supplier-first Markdown report through host file output"
+    "write_markdown_report": "Write the final supplier-first Markdown report through host file output",
+    "normalize_final_output": "Persist a clean canonical report artifact before recording run-result metadata"
   },
   "constraints": [
     "Real host capability still needs direct validation in an OpenClaw environment."

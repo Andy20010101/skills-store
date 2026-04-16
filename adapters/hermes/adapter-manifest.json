@@ -15,6 +15,7 @@
     "visible_page_reading": true,
     "supplier_page_traversal": true,
     "markdown_output": true,
+    "output_normalization": true,
     "keyword_search_assist": true,
     "screenshots": false,
     "tab_management": false
@@ -23,12 +24,15 @@
     "navigate_page": "Map Hermes browser tools to search, product, and supplier page navigation",
     "read_visible_content": "Capture only visible page evidence through Hermes reading tools",
     "open_supplier_or_product_link": "Follow shortlisted supplier and product links inside the active Hermes session",
-    "write_markdown_report": "Emit a supplier-first Markdown report artifact"
+    "write_markdown_report": "Emit a supplier-first Markdown report artifact",
+    "normalize_final_output": "Trim banners, duplicated completions, and session trailers before saving the canonical Markdown report artifact"
   },
   "constraints": [
-    "Hermes support is contract-defined but not yet live-validated."
+    "Hermes browser-side support is contract-defined but not yet live-validated."
   ],
   "notes": [
-    "Use this manifest together with adapters/hermes/PROMPT.md."
+    "Use this manifest together with adapters/hermes/PROMPT.md.",
+    "A local-only Hermes report generation run was exercised on April 16, 2026, including canonical-output normalization from a noisy raw transcript.",
+    "Browser-side direct 1688 validation remains incomplete."
   ]
 }

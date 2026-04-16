@@ -15,6 +15,7 @@
     "visible_page_reading": true,
     "supplier_page_traversal": true,
     "markdown_output": true,
+    "output_normalization": true,
     "keyword_search_assist": true,
     "screenshots": false,
     "tab_management": false
@@ -23,7 +24,8 @@
     "navigate_page": "Use host browsing tools to open 1688 or mirror pages",
     "read_visible_content": "Use host page-reading tools only on visible page content",
     "open_supplier_or_product_link": "Follow shortlisted supplier and product links inside the same browsing session",
-    "write_markdown_report": "Write a supplier-first Markdown report as the final artifact"
+    "write_markdown_report": "Write a supplier-first Markdown report as the final artifact",
+    "normalize_final_output": "Persist a clean canonical report artifact and keep any noisy raw transcript separate"
   },
   "constraints": [
     "direct 1688 reachability is environment-dependent"
