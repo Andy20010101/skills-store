@@ -3,6 +3,7 @@
   "request_id": "req_lunch_box_001",
   "status": "success",
   "evidence_mode": "direct_1688",
+  "auth_mode": "operator_authenticated",
   "supplier_count": 3,
   "collected_supplier_names": [
     "潮州市宏富五金制品有限公司",

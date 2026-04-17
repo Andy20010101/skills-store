@@ -37,6 +37,15 @@
         "none"
       ]
     },
+    "auth_mode": {
+      "type": "string",
+      "enum": [
+        "unauthenticated",
+        "operator_authenticated",
+        "self_authenticated",
+        "mixed"
+      ]
+    },
     "supplier_count": {
       "type": "integer",
       "minimum": 0

@@ -54,6 +54,7 @@
 
 - Final status: success
 - Evidence mode: direct_1688
+- Authentication mode: operator_authenticated
 - Did Hermes emit a final canonical report: yes
 
 ## Collected Evidence
@@ -84,4 +85,4 @@
 - The session stayed logged in for the whole phased run.
 - No login redirect reappeared once the operator-prepared session was in place.
 - This 2026-04-17 phased run is stronger than the 2026-04-16 one-shot direct run because it completed the whole search-harvest -> evidence-pass -> report-synthesis chain with reusable intermediate artifacts and a supplemental third-supplier probe.
-- Hermes now has a direct 3-supplier shortlist in repo artifacts, but `validation_status` still stays `validated_partial` because the workflow depends on an operator-prepared authenticated browser session rather than a self-sufficient host path.
+- Hermes now has a direct 3-supplier shortlist in repo artifacts and should be interpreted as `validated_direct` under `operator_authenticated` mode.

@@ -44,6 +44,9 @@ The human-readable report still follows [core/output-contract.md](core/output-co
 The saved report artifact should be a clean canonical Markdown file, not a raw host transcript with banners or session metadata.
 See [interface/README.md](interface/README.md) for the full flow.
 
+When a host cannot persist its own marketplace login state, this repo treats an operator-provided authenticated browser session as a supported precondition rather than a failure mode.
+That distinction is recorded through `validated_auth_mode` in `capability-manifest.json` and `auth_mode` in `run-result.json`.
+
 ## Validation Artifacts
 
 This repo keeps both human-readable reports and machine-readable run metadata:

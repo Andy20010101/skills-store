@@ -40,6 +40,15 @@
         "validated_direct"
       ]
     },
+    "validated_auth_mode": {
+      "type": "string",
+      "enum": [
+        "unauthenticated",
+        "operator_authenticated",
+        "self_authenticated",
+        "mixed"
+      ]
+    },
     "entrypoints": {
       "type": "object",
       "additionalProperties": false,

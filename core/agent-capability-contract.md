@@ -33,6 +33,19 @@ Every adapter should map native tools to the same conceptual operations:
 
 The adapter may rename those operations, but it must not change the underlying business contract.
 
+## Authentication Mode Rule
+
+Some hosts can lawfully browse direct marketplace pages only after a human operator logs in first and hands over the live browser session.
+That should be modeled as a supported authentication mode, not as an automatic failure of the workflow.
+
+Use this split:
+- `validation_status` describes whether the workflow is proven
+- authentication metadata describes under which session mode it is proven
+
+So a host may be considered direct-capable when:
+- the direct workflow is proven end to end
+- and the validated session mode is explicitly `operator_authenticated`
+
 ## Output Normalization Rule
 
 Adapters are responsible for the final saved report artifact, not just the host's raw transcript.

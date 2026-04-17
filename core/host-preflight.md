@@ -23,6 +23,11 @@ Confirm:
 - if login is required, the session already exists and is operator-controlled
 - the run does not require bypassing captcha or access limits
 
+If operator-controlled login is the only viable access mode in the real host:
+- record that as the active authentication mode
+- do not treat it as a validation failure by itself
+- only downgrade when the direct workflow still fails even with that session in place
+
 If access is unstable:
 - do not escalate into hidden-interface work
 - do not invent a workaround

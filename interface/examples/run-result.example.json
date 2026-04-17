@@ -3,6 +3,7 @@
   "request_id": "req_lunch_box_001",
   "status": "partial",
   "evidence_mode": "mirror_assisted",
+  "auth_mode": "unauthenticated",
   "supplier_count": 3,
   "collected_supplier_names": [
     "Shitai / shitai stainless steel",

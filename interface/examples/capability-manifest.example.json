@@ -3,6 +3,7 @@
   "adapter_id": "codex-web-example",
   "agent_family": "codex",
   "validation_status": "validated_partial",
+  "validated_auth_mode": "unauthenticated",
   "entrypoints": {
     "primary_prompt": "SKILL.md",
     "support_docs": [

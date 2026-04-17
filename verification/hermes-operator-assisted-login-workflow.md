@@ -1,7 +1,7 @@
 # Hermes Operator-Assisted Login Workflow
 
 - Purpose: enable a lawful operator-provided 1688 / Taobao login session for Hermes direct-site validation
-- Status: executed on 2026-04-16; validated to `validated_partial` when Hermes reused a live authenticated Chrome session and emitted a partial direct-site report
+- Status: executed on April 17, 2026; the direct workflow is now treated as `validated_direct` under `operator_authenticated` mode after a 3-supplier direct shortlist was completed
 
 ## Why This Exists
 

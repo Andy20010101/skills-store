@@ -25,6 +25,7 @@ This captures:
 - adapter identity
 - agent family
 - validation status
+- which authentication mode that validation status applies to
 - capability booleans
 - operation mappings from the host's native tools to the shared contract
 
@@ -36,6 +37,7 @@ Each run should emit a `run-result.json` document validated by:
 This captures:
 - run status
 - whether evidence came from direct 1688 pages, mirror-assisted pages, or no usable pages
+- which authentication mode the run actually used
 - where the Markdown report lives
 - supplier count
 - blockers and limitations
@@ -89,6 +91,22 @@ If a host produces noisy raw output that still needs to be preserved, store that
 
 For stable hosts, steps 4 through 6 may still happen inside one run.
 For unstable hosts, keeping the intermediate artifacts is strongly preferred.
+
+## Authentication Semantics
+
+Some marketplaces do not support a self-managed persistent login path for the agent host.
+In those cases, an operator-provided authenticated browser session is a supported access mode, not a downgrade by itself.
+
+Recommended interpretation:
+- `validation_status` answers whether the workflow is proven under the declared access mode
+- `validated_auth_mode` in `capability-manifest.json` declares which access mode that validation applies to
+- `auth_mode` in `run-result.json` records which access mode the specific run used
+
+For example, a host can honestly be:
+- `validation_status = validated_direct`
+- `validated_auth_mode = operator_authenticated`
+
+when the direct workflow is proven, but the user must still log in first and let the agent reuse that session.
 
 ## Example Files
 
