@@ -2,8 +2,8 @@
   "interface_version": "1.0.0",
   "adapter_id": "codex-root-skill",
   "agent_family": "codex",
-  "validation_status": "validated_partial",
-  "validated_auth_mode": "mixed",
+  "validation_status": "validated_direct",
+  "validated_auth_mode": "operator_authenticated",
   "entrypoints": {
     "primary_prompt": "SKILL.md",
     "support_docs": [
@@ -29,12 +29,13 @@
     "normalize_final_output": "Persist the canonical Markdown report artifact; if the host output is already clean, keep the raw and canonical outputs identical"
   },
   "constraints": [
-    "direct 1688 availability depends on the current Codex browsing environment and any operator-provided authenticated Chrome session",
+    "direct-site support assumes an operator-provided authenticated Chrome session; the operator may also need to clear the initial direct-search slider challenge before Codex takes over the live results page",
     "automated login and self-managed session persistence are not validated for Codex"
   ],
   "notes": [
-    "Current validation status is partial because mirror-assisted evidence is proven, while direct 1688 support is only partially proven under an operator-authenticated browser session.",
+    "Codex retains a validated mirror-assisted path, but its highest validated mode is now direct 1688 browsing under an operator-authenticated browser session.",
     "A direct-site recheck on April 16, 2026 found that direct search still degraded into an anti-bot punish flow while direct product detail HTML was reachable outside the browser tool; browser-readable validated_direct support was not yet justified.",
-    "An operator-authenticated recheck on April 17, 2026 proved that Codex could read direct product-detail and supplier pages through a live authenticated Chrome session, but direct search remained intermittently punish-gated, so validated_direct is still not justified."
+    "An operator-authenticated recheck on April 17, 2026 proved that Codex could read direct product-detail and supplier pages through a live authenticated Chrome session, but direct search remained intermittently punish-gated, so validated_direct was still not justified at that point.",
+    "A follow-up operator-cleared direct validation on April 17, 2026 started from a readable live search-results page, then completed search-result to product-detail to supplier-page traversal for a retained candidate and revisited two additional direct supplier/product pairs in the same session; validated_direct is now justified under operator_authenticated mode."
   ]
 }

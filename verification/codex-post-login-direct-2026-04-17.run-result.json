@@ -1,0 +1,24 @@
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_lunch_box_001",
+  "status": "success",
+  "evidence_mode": "direct_1688",
+  "auth_mode": "operator_authenticated",
+  "supplier_count": 3,
+  "collected_supplier_names": [
+    "潮州市宏富五金制品有限公司",
+    "潮州市潮安区彩塘镇广成不锈钢制品厂",
+    "龙港市萱甄工艺品厂"
+  ],
+  "summary": "Codex reused an operator-cleared direct 1688 search-results page, completed product-detail and supplier-page traversal for a retained search candidate, and generated a canonical 3-supplier direct report in the same operator-authenticated session.",
+  "blockers": [],
+  "limitations": [
+    "fresh automated direct-search loads can still fall back into slider verification in this environment",
+    "supplier 2 and supplier 3 were revisited from retained direct candidate URLs after the readable search page confirmed direct-search access",
+    "factory-direct status, lead time, and certification were not fully reviewed in this pass"
+  ],
+  "report_artifacts": {
+    "report_markdown_ref": "reports/codex-post-login-direct-2026-04-17.md",
+    "run_notes_ref": "verification/codex-post-login-direct-validation-2026-04-17.md"
+  }
+}
