@@ -1,105 +1,155 @@
 # 1688 Supplier Discovery Report
 
 ## Research Brief
-- Product direction: 304 stainless-steel lunch box / compartment bento box / portable meal container for office workers and students
+- Product direction: 304不锈钢饭盒 / 分格便当盒 / 餐盒
 - Search phrases used:
-  - 保温饭盒
+  - 304不锈钢饭盒
+  - 分格便当盒
+  - 保温上班族餐盒
+  - 食品级两三格饭盒
 - Constraints:
-  - evidence came only from pages actually reviewed in the phased Hermes run
-  - do not pad the shortlist when fewer than 3 credible suppliers are supported
-  - keep supplier facts, judgments, and unknowns separate
+  - evidence mode: direct_1688
+  - only use visible page evidence
+  - do not fabricate shortlist padding
+  - keep facts, heuristic judgments, and unknowns separate
 
 ## Run Notes
 - Evidence mode: direct_1688
-- Host capability assumptions: Hermes reused an operator-provided authenticated Chrome session and completed the phased flow through local `candidate-set.json` and `evidence-notes.json` artifacts
-- Access limitations: this run harvested only 2 reviewable direct candidates from one search phrase and did not widen the search beyond the bounded phase-1 budget
-- Important caveats: the final shortlist contains 2 credible suppliers, not 3; candidate 2 is commercially weaker and less category-focused than candidate 1
+- Host capability assumptions:
+  - operator-provided authenticated browser session was available
+  - inspected pages were readable directly on 1688
+- Access limitations:
+  - some supplier/product pages expose only partial pricing or MOQ in the visible area
+  - one supplier was added via a supplemental probe after the first phased pass
+- Important caveats:
+  - supplier identity and commercial strength are judged from visible page signals only
+  - factory-direct status was not independently proven on-page for all candidates
+  - the evidence set contains three retained suppliers, so the shortlist is not padded
 
 ## Supplier Shortlist
-Current run retained 2 credible suppliers, fewer than the usual 3-supplier target.
 
-### 1. 潮州市潮安区彩塘镇广成不锈钢制品厂
-- Evidence page link: https://chaozhougc.1688.com/
-- Source 1688 link: https://chaozhougc.1688.com/
-- Why shortlisted: supplier tenure, service metrics, and product-page sales signals were all strong, and the visible listing fit the 304 stainless-steel lunch-box direction closely
+### 1. 潮州市宏富五金制品有限公司
+- Evidence page link: https://cahongfu.1688.com/?offerId=992411055961&td_page_id=PC-DEFAULT-2025
+- Source 1688 link: https://cahongfu.1688.com/?offerId=992411055961&td_page_id=PC-DEFAULT-2025
+- Why shortlisted:
+  - strongest visible shop maturity and operating signals
+  - supplier and product naming align cleanly
+  - visible shop metrics are broadly favorable
 
 #### Page-Visible Facts
-- 入驻 9 年
-- 主营：餐具
-- 店铺回头率 77%
-- 店铺服务分 4.5 分
-- 准时发货率 81%
-- 店铺好评率 99.9%
-- 商品材质为 304 不锈钢
-- 价格为 ¥23.25
-- 4 个起批
-- 已售 2200+ 个
-- 规格包含小号二格 / 小号三格 / 大号四格等多种颜色
-- 是否保温：否
-- 盒子层数：单层
+- 产品页标题：304不锈钢食品级两三格分格饭盒便当盒减脂餐定量密封不串味跨境
+- 店铺名：潮州市宏富五金制品有限公司
+- 入驻15年
+- 主营类目：日用餐厨饮具/餐具
+- 回头率：56.5%（店铺页）/57%（产品页店铺卡）
+- 服务分：4.5
+- 准时发货率：98%
+- 店铺好评率：100.0%
+- 广东 潮州
+- 2021.07成立
+- 2026上榜一钻工厂
 
 #### Heuristic Judgments
-- supplier identity looked stable and active enough for shortlist retention
-- product and shop breadth aligned with stainless-steel food-container sourcing
-- commercial signals were strong enough to prioritize this supplier for follow-up
+- 产品页与店铺页名称一致，指向同一供应商。
+- 店铺资历与经营数据可见，适合作为优先保留候选。
+- 该候选在可见区域未稳定展示完整价格与MOQ组合。
 
 #### Unknowns
-- factory-direct status was not independently proven on-page
-- certification details were only partially visible and not validated
-- actual production capacity and export depth remained unclear
+- 未直接看到完整价格与MOQ组合
+- 未核实该商品是否为店铺主推款或唯一对应款
+- factory-direct status 仍未被独立证实
+
+#### Representative Products
+1. 304不锈钢食品级两三格分格饭盒便当盒减脂餐定量密封不串味跨境
+   - Evidence link: https://detail.1688.com/offer/992411055961.html?offerId=992411055961&sortType=&pageId=&abBizDataType=cbuOffer&hotSaleSkuId=6225815567309&trace_log=normal&uuid=a54ddddc99c94568a9c6f562ce83c61c&forcePC=1776388637674
+   - Source 1688 link: https://detail.1688.com/offer/992411055961.html?offerId=992411055961&sortType=&pageId=&abBizDataType=cbuOffer&hotSaleSkuId=6225815567309&trace_log=normal&uuid=a54ddddc99c94568a9c6f562ce83c61c&forcePC=1776388637674
+   - Visible price / MOQ: 未见
+   - Notes: 候选产品页标题可见，但当前可见区域未稳定显示价格/MOQ。
+
+### 2. 潮州市潮安区彩塘镇广成不锈钢制品厂
+- Evidence page link: https://chaozhougc.1688.com/
+- Source 1688 link: https://chaozhougc.1688.com/
+- Why shortlisted:
+  - shop looks stable and active
+  - lunch-box product evidence is clear
+  - fit is good for stainless-steel food-container sourcing
+
+#### Page-Visible Facts
+- supplier page shows 入驻9年
+- supplier page shows 主营：餐具
+- supplier page shows 店铺回头率77%
+- supplier page shows 店铺服务分4.5分
+- supplier page shows 准时发货率81%
+- supplier page shows 店铺好评率99.9%
+- product page shows 材质 304不锈钢
+- product page shows 价格 ¥23.25
+- product page shows 4个起批
+- product page shows 已售2200+个
+- product page shows 规格包含小号二格/小号三格/大号四格多种颜色
+- product page shows 是否保温 否 and 盒子层数 单层
+
+#### Heuristic Judgments
+- supplier identity looks stable and the shop appears active enough for shortlist retention
+- product and shop breadth are aligned with stainless-steel food-container sourcing
+- commercial signals are strong enough to revisit later
+
+#### Unknowns
+- factory-direct status is not independently proven on-page
+- certification details are only partially visible and not validated
+- true production capacity and export depth remain unclear
 
 #### Representative Products
 1. 304不锈钢饭盒带盖上班族餐盒学生便携分2三格不串味便当盒高颜值
    - Evidence link: https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4
    - Source 1688 link: https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4
-   - Visible price / MOQ: ¥23.25; 4 个起批
+   - Visible price / MOQ: ¥23.25; 4个起批
    - Notes: visible 304 stainless-steel lunch-box listing with sales and variant clues
 
-### 2. 龙港市萱甄工艺品厂
+### 3. 龙港市萱甄工艺品厂
 - Evidence page link: https://shop87n77471lx561.1688.com/
 - Source 1688 link: https://shop87n77471lx561.1688.com/
-- Why shortlisted: shop activity and shipping metrics were strong enough to keep, and the product page was readable with export-oriented signals, even though category focus was weaker than supplier 1
+- Why shortlisted:
+  - active shop with readable export-oriented signals
+  - product evidence is visible and relevant
+  - retained as a weaker but usable candidate
 
 #### Page-Visible Facts
-- 入驻 1 年
-- 主营：家用电器
-- 店铺回头率 40%
-- 店铺服务分 4.5 分
-- 准时发货率 97%
-- 店铺好评率 100.0%
-- 新人价 ¥38.50 起
-- 首件预估到手价 ¥39.50-42.00
-- 1 台起批
-- 60+ 人想买
-- 是否跨境出口专供货源：是
-- 主要下游平台：eBay / 亚马逊 / wish / 速卖通 / 独立站 / LAZADA
+- supplier page shows 入驻1年
+- supplier page shows 主营：家用电器
+- supplier page shows 店铺回头率40%
+- supplier page shows 店铺服务分4.5分
+- supplier page shows 准时发货率97%
+- supplier page shows 店铺好评率100.0%
+- product page shows 新人价 ¥38.50起
+- product page shows 首件预估到手价 ¥39.50-42.00
+- product page shows 1台起批
+- product page shows 60+人想买
+- product page shows 是否跨境出口专供货源 是
+- product page shows 主要下游平台 eBay/亚马逊/wish/速卖通/独立站/LAZADA
 
 #### Heuristic Judgments
-- supplier remained worth keeping because the shop was active and shipping metrics were strong
-- visible export signals were clear, but the shop category mix was broader and less focused than supplier 1
-- commercial fit was weaker than supplier 1, but the evidence was still usable
+- supplier is active and has strong shipping metrics, so it is still worth retaining
+- product is clearly visible and export-oriented, but the shop category mix is broader and less focused than the top candidate
+- commercial fit is weaker than candidate 1, yet the evidence is still usable
 
 #### Unknowns
-- company intro and category mix were not fully consistent with the current product line
-- factory-direct status was not independently proven on-page
-- actual business focus and lunch-box sourcing depth remained unclear
+- the company intro/category mix is not fully consistent with the product line
+- factory-direct status is not independently proven on-page
+- actual business focus and depth in lunch-box sourcing remain unclear
 
 #### Representative Products
 1. 跨境304不锈钢饭盒保温上班族小学生分格便当盒分隔食堂打饭餐盒
    - Evidence link: https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4
    - Source 1688 link: https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4
-   - Visible price / MOQ: ¥38.50 起; 1 台起批
-   - Notes: visible export-platform and cross-border lunch-box signals on the product page
+   - Visible price / MOQ: ¥38.50起; 1台起批
+   - Notes: cross-border electric lunch-box listing with export/platform clues
 
 ## Rejected or Lower-Priority Candidates
-- Candidate: additional direct search results beyond the first bounded phase-1 harvest
-- Why not prioritized: the phased run intentionally stopped after harvesting 2 reviewable candidates from one direct search phrase
+- Candidate: none retained as rejected in the merged evidence notes
+- Why not prioritized: the final evidence set contains three kept suppliers, all of which remain credible enough for shortlist inclusion
 
 ## Next Actions
-- Which suppliers to revisit first:
-  - 潮州市潮安区彩塘镇广成不锈钢制品厂
-  - 龙港市萱甄工艺品厂
-- Which unknowns need manual confirmation:
-  - whether either supplier is truly factory-direct
-  - certification, production depth, and export experience
-  - whether a narrower follow-up search can surface a credible third supplier in the same authenticated workflow
+- Revisit 潮州市宏富五金制品有限公司 first
+- Revisit 潮州市潮安区彩塘镇广成不锈钢制品厂 second
+- Revisit 龙港市萱甄工艺品厂 third
+- Manually confirm完整价格、MOQ、主推款关系、以及 factory-direct status where still unknown

@@ -39,8 +39,8 @@
     "A browser-side live run on April 16, 2026 launched headless Chromium and entered mirror fallback navigation, but stalled before emitting a final report artifact.",
     "Follow-up single-page probes on April 16, 2026 showed that Hermes can emit final Markdown artifacts for a blocked direct detail page and a readable mirror page, but the full supplier-discovery compatibility test is still incomplete.",
     "An operator-assisted direct-site validation on April 16, 2026 reused a logged-in Chrome session, confirmed a readable direct product detail page, and emitted a partial direct-site supplier-discovery report with one credible supplier.",
-    "Hermes should be treated as validated_partial in the current environment; validated_direct is not yet justified because the direct workflow still depends on operator-prepared login state and did not produce a full 3-supplier shortlist.",
+    "Hermes should be treated as validated_partial in the current environment; validated_direct is not yet justified because the direct workflow still depends on operator-prepared login state rather than a self-sufficient host path.",
     "The recommended Hermes validation path is now phased: search harvest, evidence pass, and report synthesis, with structured intermediate artifacts persisted under verification/.",
-    "A phased operator-assisted direct run on April 17, 2026 completed end to end with canonical candidate-set, evidence-notes, and Markdown report artifacts for 2 credible suppliers."
+    "A phased operator-assisted direct run on April 17, 2026 completed end to end with canonical candidate-set, evidence-notes, and Markdown report artifacts; a supplemental narrow direct probe added a third retained supplier to the final shortlist."
   ]
 }

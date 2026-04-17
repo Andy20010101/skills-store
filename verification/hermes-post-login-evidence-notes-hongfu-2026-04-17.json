@@ -1,0 +1,60 @@
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_lunch_box_001",
+  "phase": "evidence_pass",
+  "evidence_mode": "direct_1688",
+  "reviewed_candidates": [
+    {
+      "candidate_id": "cand_hongfu_001",
+      "status": "kept",
+      "supplier_name": "潮州市宏富五金制品有限公司",
+      "product_title": "304不锈钢食品级两三格分格饭盒便当盒减脂餐定量密封不串味跨境",
+      "supplier_page_link": "https://cahongfu.1688.com/?offerId=992411055961&td_page_id=PC-DEFAULT-2025",
+      "evidence_pages": [
+        {
+          "page_role": "product_detail",
+          "evidence_page_link": "https://detail.1688.com/offer/992411055961.html?offerId=992411055961&sortType=&pageId=&abBizDataType=cbuOffer&hotSaleSkuId=6225815567309&trace_log=normal&uuid=a54ddddc99c94568a9c6f562ce83c61c&forcePC=1776388637674",
+          "source_1688_link": "https://detail.1688.com/offer/992411055961.html?offerId=992411055961&sortType=&pageId=&abBizDataType=cbuOffer&hotSaleSkuId=6225815567309&trace_log=normal&uuid=a54ddddc99c94568a9c6f562ce83c61c&forcePC=1776388637674",
+          "page_summary": "产品页标题与候选商品一致，页面可见店铺信息指向潮州市宏富五金制品有限公司。"
+        },
+        {
+          "page_role": "supplier_page",
+          "evidence_page_link": "https://cahongfu.1688.com/?offerId=992411055961&td_page_id=PC-DEFAULT-2025",
+          "source_1688_link": "https://cahongfu.1688.com/?offerId=992411055961&td_page_id=PC-DEFAULT-2025",
+          "page_summary": "店铺页显示潮州市宏富五金制品有限公司，入驻15年，主营日用餐厨饮具，回头率56.5%，广东潮州，2021.07成立。"
+        }
+      ],
+      "page_visible_facts": [
+        "产品页标题：304不锈钢食品级两三格分格饭盒便当盒减脂餐定量密封不串味跨境",
+        "店铺名：潮州市宏富五金制品有限公司",
+        "入驻15年",
+        "主营类目：日用餐厨饮具/餐具",
+        "回头率：56.5%（店铺页）/57%（产品页店铺卡）",
+        "服务分：4.5",
+        "准时发货率：98%",
+        "店铺好评率：100.0%",
+        "广东 潮州",
+        "2021.07成立",
+        "2026上榜一钻工厂"
+      ],
+      "heuristic_judgments": [
+        "产品页与店铺页名称一致，指向同一供应商。",
+        "店铺资历与经营数据可见，适合作为保留候选。",
+        "当前未在可见区域稳定获取该商品的起批量/完整价格信息。"
+      ],
+      "unknowns": [
+        "未直接看到该候选商品的完整价格与MOQ组合",
+        "未核实该商品是否为店铺主推款或唯一对应款"
+      ],
+      "representative_products": [
+        {
+          "title": "304不锈钢食品级两三格分格饭盒便当盒减脂餐定量密封不串味跨境",
+          "evidence_link": "https://detail.1688.com/offer/992411055961.html?offerId=992411055961&sortType=&pageId=&abBizDataType=cbuOffer&hotSaleSkuId=6225815567309&trace_log=normal&uuid=a54ddddc99c94568a9c6f562ce83c61c&forcePC=1776388637674",
+          "source_1688_link": "https://detail.1688.com/offer/992411055961.html?offerId=992411055961&sortType=&pageId=&abBizDataType=cbuOffer&hotSaleSkuId=6225815567309&trace_log=normal&uuid=a54ddddc99c94568a9c6f562ce83c61c&forcePC=1776388637674",
+          "visible_price_moq": "未见",
+          "notes": "候选产品页标题可见，但当前可见区域未稳定显示价格/MOQ。"
+        }
+      ]
+    }
+  ]
+}

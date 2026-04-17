@@ -1,0 +1,47 @@
+
+╭─ ⚕ Hermes ───────────────────────────────────────────────────────────────────╮
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_lunch_box_001",
+  "phase": "search_harvest",
+  "evidence_mode": "direct_1688",
+  "search_strategy": {
+    "phrases_attempted": [
+      "304 不锈钢 分格 饭盒"
+    ],
+    "phrase_limit": 2,
+    "product_page_open_limit_per_phrase": 1,
+    "notes": [
+      "The first search phrase already yielded one high-signal direct 1688 candidate, so expansion stopped immediately.",
+      "Opened exactly one product-detail page for this phrase and excluded previously reviewed suppliers."
+    ]
+  },
+  "search_page_links": [
+    "https://s.1688.com/selloffer/offer_search.htm?keywords=304%20%E4%B8%8D%E9%94%88%E9%92%A2%20%E5%88%86%E6%A0%BC%20%E9%A5%AD%E7%9B%92"
+  ],
+  "candidates": [
+    {
+      "candidate_id": "cand_hongfu_001",
+      "rank": 1,
+      "search_phrase": "304 不锈钢 分格 饭盒",
+      "supplier_name": "潮州市宏富五金制品有限公司",
+      "product_title": "304不锈钢食品级两三格分格饭盒便当盒减脂餐定量密封不串味跨境",
+      "evidence_page_link": "https://detail.1688.com/offer/992411055961.html?offerId=992411055961&sortType=&pageId=&abBizDataType=cbuOffer&hotSaleSkuId=6225815567309&trace_log=normal&uuid=a54ddddc99c94568a9c6f562ce83c61c&forcePC=1776388637674",
+      "source_1688_link": "https://detail.1688.com/offer/992411055961.html?offerId=992411055961&sortType=&pageId=&abBizDataType=cbuOffer&hotSaleSkuId=6225815567309&trace_log=normal&uuid=a54ddddc99c94568a9c6f562ce83c61c&forcePC=1776388637674",
+      "supplier_page_link": "https://cahongfu.1688.com/?offerId=992411055961&td_page_id=PC-DEFAULT-2025",
+      "visible_clues": [
+        "304不锈钢",
+        "两格/三格分格",
+        "¥11.80",
+        "1个起批",
+        "全网销量5200+个",
+        "已售2200+个",
+        "入驻15年",
+        "店铺回头率56%",
+        "店铺服务分4.5分",
+        "准时发货率98%",
+        "店铺好评率100.0%"
+      ],
+      "selection_reason": "Direct product page shows strong 304 stainless lunch-box relevance, visible price and MOQ, and a stable supplier identity with a company shop page."
+    }
+  ]

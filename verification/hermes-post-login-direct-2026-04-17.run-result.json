@@ -1,21 +1,21 @@
 {
   "interface_version": "1.0.0",
   "request_id": "req_lunch_box_001",
-  "status": "partial",
+  "status": "success",
   "evidence_mode": "direct_1688",
-  "supplier_count": 2,
+  "supplier_count": 3,
   "collected_supplier_names": [
+    "潮州市宏富五金制品有限公司",
     "潮州市潮安区彩塘镇广成不锈钢制品厂",
     "龙港市萱甄工艺品厂"
   ],
-  "summary": "Hermes completed the phased operator-assisted direct 1688 workflow, producing canonical candidate-set, evidence-notes, and Markdown report artifacts for 2 credible suppliers.",
-  "blockers": [
-    "the bounded direct search harvest surfaced only 2 reviewable candidates, so the final shortlist remained below the 3-supplier target"
-  ],
+  "summary": "Hermes completed the phased operator-assisted direct 1688 workflow, then added a narrow supplemental direct probe to produce a canonical 3-supplier direct shortlist.",
+  "blockers": [],
   "limitations": [
     "the run depended on an operator-provided authenticated Chrome session rather than an automated login flow",
     "the phase-1 raw transcript required manual normalization into a schema-valid candidate-set artifact",
-    "the phase-3 raw transcript included duplicated report content and a trailing session id, so the canonical Markdown report was normalized before persistence"
+    "the supplemental search-harvest transcript ended before the closing brace and required normalization into a canonical candidate-set artifact",
+    "the final merged report transcript included duplicated report content and required canonical-output normalization before persistence"
   ],
   "report_artifacts": {
     "report_markdown_ref": "reports/hermes-post-login-direct-2026-04-17.md",
