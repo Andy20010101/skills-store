@@ -1,0 +1,241 @@
+
+╭─ ⚕ Hermes ───────────────────────────────────────────────────────────────────╮
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_2026-04-17_evidence_pass_001",
+  "phase": "evidence_pass",
+  "evidence_mode": "direct_1688",
+  "reviewed_candidates": [
+    {
+      "candidate_id": "cand_guangcheng_001",
+      "status": "kept",
+      "supplier_name": "潮州市潮安区彩塘镇广成不锈钢制品厂",
+      "product_title": "304不锈钢饭盒带盖上班族餐盒学生便携分2三格不串味便当盒高颜值",
+      "supplier_page_link": "https://chaozhougc.1688.com/",
+      "evidence_pages": [
+        {
+          "page_role": "product_detail",
+          "evidence_page_link": "https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "source_1688_link": "https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "page_summary": "product detail page showed the lunch-box listing title, price band, MOQ, sales volume, and product attributes"
+        },
+        {
+          "page_role": "supplier_page",
+          "evidence_page_link": "https://chaozhougc.1688.com/",
+          "source_1688_link": "https://chaozhougc.1688.com/",
+          "page_summary": "supplier shop page showed a long-running factory-like shop with populated product breadth and service metrics"
+        }
+      ],
+      "page_visible_facts": [
+        "supplier page shows 入驻9年",
+        "supplier page shows 主营：餐具",
+        "supplier page shows 店铺回头率77%",
+        "supplier page shows 店铺服务分4.5分",
+        "supplier page shows 准时发货率81%",
+        "supplier page shows 店铺好评率99.9%",
+        "product page shows 材质 304不锈钢",
+        "product page shows 价格 ¥23.25",
+        "product page shows 4个起批",
+        "product page shows 已售2200+个",
+        "product page shows 规格包含小号二格/小号三格/大号四格多种颜色",
+        "product page shows 是否保温 否 and 盒子层数 单层"
+      ],
+      "heuristic_judgments": [
+        "supplier identity looks stable and the shop appears active enough for shortlist retention",
+        "product and shop breadth are aligned with stainless-steel food-container sourcing",
+        "commercial signals are strong enough to revisit later"
+      ],
+      "unknowns": [
+        "factory-direct status is not independently proven on-page",
+        "certification details are only partially visible and not validated",
+        "true production capacity and export depth remain unclear"
+      ],
+      "representative_products": [
+        {
+          "title": "304不锈钢饭盒带盖上班族餐盒学生便携分2三格不串味便当盒高颜值",
+          "evidence_link": "https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "source_1688_link": "https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "visible_price_moq": "¥23.25; 4个起批",
+          "notes": "visible 304 stainless-steel lunch-box listing with sales and variant clues"
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_xuanzhen_002",
+      "status": "kept",
+      "supplier_name": "龙港市萱甄工艺品厂",
+      "product_title": "跨境304不锈钢饭盒保温上班族小学生分格便当盒分隔食堂打饭餐盒",
+      "supplier_page_link": "https://shop87n77471lx561.1688.com/",
+      "evidence_pages": [
+        {
+          "page_role": "product_detail",
+          "evidence_page_link": "https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "source_1688_link": "https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "page_summary": "product detail page showed a readable cross-border electric lunch-box listing with price, MOQ, and shipping cues"
+        },
+        {
+          "page_role": "supplier_page",
+          "evidence_page_link": "https://shop87n77471lx561.1688.com/",
+          "source_1688_link": "https://shop87n77471lx561.1688.com/",
+          "page_summary": "supplier shop page showed a newly opened but active shop with many mixed product listings and export-oriented signals"
+        }
+      ],
+      "page_visible_facts": [
+        "supplier page shows 入驻1年",
+        "supplier page shows 主营：家用电器",
+        "supplier page shows 店铺回头率40%",
+        "supplier page shows 店铺服务分4.5分",
+        "supplier page shows 准时发货率97%",
+        "supplier page shows 店铺好评率100.0%",
+        "product page shows 新人价 ¥38.50起",
+        "product page shows 首件预估到手价 ¥39.50-42.00",
+        "product page shows 1台起批",
+        "product page shows 60+人想买",
+        "product page shows 是否跨境出口专供货源 是",
+        "product page shows 主要下游平台 eBay/亚马逊/wish/速卖通/独立站/LAZADA"
+      ],
+      "heuristic_judgments": [
+        "supplier is active and has strong shipping metrics, so it is still worth retaining",
+        "product is clearly visible and export-oriented, but the shop category mix is broader and less focused than the top candidate",
+        "commercial fit is weaker than candidate 1, yet the evidence is still usable"
+      ],
+      "unknowns": [
+        "the company intro/category mix is not fully consistent with the product line",
+        "factory-direct status is not independently proven on-page",
+        "actual business focus and depth in lunch-box sourcing remain unclear"
+      ],
+      "representative_products": [
+        {
+          "title": "跨境304不锈钢饭盒保温上班族小学生分格便当盒分隔食堂打饭餐盒",
+          "evidence_link": "https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "source_1688_link": "https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "visible_price_moq": "¥38.50起; 1台起批",
+          "notes": "cross-border electric lunch-box listing with export/platform clues"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "the provided candidate set contained only 2 candidates, so there was no third candidate to inspect in this phase"
+  ]
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_2026-04-17_evidence_pass_001",
+  "phase": "evidence_pass",
+  "evidence_mode": "direct_1688",
+  "reviewed_candidates": [
+    {
+      "candidate_id": "cand_guangcheng_001",
+      "status": "kept",
+      "supplier_name": "潮州市潮安区彩塘镇广成不锈钢制品厂",
+      "product_title": "304不锈钢饭盒带盖上班族餐盒学生便携分2三格不串味便当盒高颜值",
+      "supplier_page_link": "https://chaozhougc.1688.com/",
+      "evidence_pages": [
+        {
+          "page_role": "product_detail",
+          "evidence_page_link": "https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "source_1688_link": "https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "page_summary": "product detail page showed the lunch-box listing title, price band, MOQ, sales volume, and product attributes"
+        },
+        {
+          "page_role": "supplier_page",
+          "evidence_page_link": "https://chaozhougc.1688.com/",
+          "source_1688_link": "https://chaozhougc.1688.com/",
+          "page_summary": "supplier shop page showed a long-running factory-like shop with populated product breadth and service metrics"
+        }
+      ],
+      "page_visible_facts": [
+        "supplier page shows 入驻9年",
+        "supplier page shows 主营：餐具",
+        "supplier page shows 店铺回头率77%",
+        "supplier page shows 店铺服务分4.5分",
+        "supplier page shows 准时发货率81%",
+        "supplier page shows 店铺好评率99.9%",
+        "product page shows 材质 304不锈钢",
+        "product page shows 价格 ¥23.25",
+        "product page shows 4个起批",
+        "product page shows 已售2200+个",
+        "product page shows 规格包含小号二格/小号三格/大号四格多种颜色",
+        "product page shows 是否保温 否 and 盒子层数 单层"
+      ],
+      "heuristic_judgments": [
+        "supplier identity looks stable and the shop appears active enough for shortlist retention",
+        "product and shop breadth are aligned with stainless-steel food-container sourcing",
+        "commercial signals are strong enough to revisit later"
+      ],
+      "unknowns": [
+        "factory-direct status is not independently proven on-page",
+        "certification details are only partially visible and not validated",
+        "true production capacity and export depth remain unclear"
+      ],
+      "representative_products": [
+        {
+          "title": "304不锈钢饭盒带盖上班族餐盒学生便携分2三格不串味便当盒高颜值",
+          "evidence_link": "https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "source_1688_link": "https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "visible_price_moq": "¥23.25; 4个起批",
+          "notes": "visible 304 stainless-steel lunch-box listing with sales and variant clues"
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_xuanzhen_002",
+      "status": "kept",
+      "supplier_name": "龙港市萱甄工艺品厂",
+      "product_title": "跨境304不锈钢饭盒保温上班族小学生分格便当盒分隔食堂打饭餐盒",
+      "supplier_page_link": "https://shop87n77471lx561.1688.com/",
+      "evidence_pages": [
+        {
+          "page_role": "product_detail",
+          "evidence_page_link": "https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "source_1688_link": "https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "page_summary": "product detail page showed a readable cross-border electric lunch-box listing with price, MOQ, and shipping cues"
+        },
+        {
+          "page_role": "supplier_page",
+          "evidence_page_link": "https://shop87n77471lx561.1688.com/",
+          "source_1688_link": "https://shop87n77471lx561.1688.com/",
+          "page_summary": "supplier shop page showed a newly opened but active shop with many mixed product listings and export-oriented signals"
+        }
+      ],
+      "page_visible_facts": [
+        "supplier page shows 入驻1年",
+        "supplier page shows 主营：家用电器",
+        "supplier page shows 店铺回头率40%",
+        "supplier page shows 店铺服务分4.5分",
+        "supplier page shows 准时发货率97%",
+        "supplier page shows 店铺好评率100.0%",
+        "product page shows 新人价 ¥38.50起",
+        "product page shows 首件预估到手价 ¥39.50-42.00",
+        "product page shows 1台起批",
+        "product page shows 60+人想买",
+        "product page shows 是否跨境出口专供货源 是",
+        "product page shows 主要下游平台 eBay/亚马逊/wish/速卖通/独立站/LAZADA"
+      ],
+      "heuristic_judgments": [
+        "supplier is active and has strong shipping metrics, so it is still worth retaining",
+        "product is clearly visible and export-oriented, but the shop category mix is broader and less focused than the top candidate",
+        "commercial fit is weaker than candidate 1, yet the evidence is still usable"
+      ],
+      "unknowns": [
+        "the company intro/category mix is not fully consistent with the product line",
+        "factory-direct status is not independently proven on-page",
+        "actual business focus and depth in lunch-box sourcing remain unclear"
+      ],
+      "representative_products": [
+        {
+          "title": "跨境304不锈钢饭盒保温上班族小学生分格便当盒分隔食堂打饭餐盒",
+          "evidence_link": "https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "source_1688_link": "https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+          "visible_price_moq": "¥38.50起; 1台起批",
+          "notes": "cross-border electric lunch-box listing with export/platform clues"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "the provided candidate set contained only 2 candidates, so there was no third candidate to inspect in this phase"
+  ]
+}
+
+session_id: 20260417_090606_bd6dc4
