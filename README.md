@@ -24,6 +24,22 @@
 
 ---
 
+### 🏭 1688-platform-skill
+**1688 供应商发现与初筛 Skill**
+
+面向单一产品方向的低频、浏览器优先 1688 供应商研究工作流，输出带可见证据、判断、未知项和来源链接的 Markdown shortlist。
+
+| 属性 | 值 |
+|------|-----|
+| 触发词 | 1688-supplier-discovery / 启动1688供应商发现 / 1688供应商初筛 |
+| 定位 | 单产品方向供应商研究 |
+| 依赖 | browser navigation · visible page reading · markdown output |
+| 状态 | ✅ 已收录 |
+
+📂 [技能目录](./1688-platform-skill/) · [详细文档](./1688-platform-skill/SKILL.md)
+
+---
+
 ## 🚧 即将上线
 
 | 技能 | 描述 | 状态 |
@@ -42,6 +58,7 @@
 
 ```bash
 openclaw skills install Andy20010101/skills-store/boss-zhipin-agent
+openclaw skills install Andy20010101/skills-store/1688-platform-skill
 ```
 
 或通过 [ClawhHub](https://clawhub.com) 搜索 `boss-zhipin-agent`。
@@ -57,4 +74,4 @@ openclaw skills install Andy20010101/skills-store/boss-zhipin-agent
 
 ---
 
-*Last updated: 2026-03-25*
+*Last updated: 2026-04-21*
