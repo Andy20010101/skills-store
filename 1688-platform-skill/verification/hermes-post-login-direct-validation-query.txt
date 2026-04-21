@@ -1,0 +1,42 @@
+You are running a Hermes direct-site validation using an operator-provided authenticated browser session.
+
+This is the legacy one-shot validation prompt.
+For reliable Hermes runs, prefer the phased prompts:
+- `verification/hermes-post-login-search-harvest-query.txt`
+- `verification/hermes-post-login-evidence-pass-query.txt`
+- `verification/hermes-post-login-report-synthesis-query.txt`
+
+Assume the user has already:
+- connected your browser tools to their live Chrome via `/browser connect`
+- manually logged into any required 1688 / Taobao pages in that same browser session
+
+Rules:
+- reuse the current authenticated browser session
+- do not ask for credentials
+- do not attempt captcha bypass or hidden-interface fallback
+- if the page redirects back to login or the session is no longer valid, stop and report that exact blocker
+- do not edit repository files
+
+Read these local files first:
+- adapters/hermes/PROMPT.md
+- core/output-contract.md
+- core/failure-playbook.md
+- interface/examples/research-request.example.json
+
+Validation objective:
+- verify whether Hermes can complete a direct-site supplier-discovery run when an authenticated session is already present
+
+Direct path to test:
+- open the direct 1688 search results page for the request
+- open at least one direct product detail page
+- open at least one supplier page when available
+- produce a supplier-first Markdown report only if the evidence is truly sufficient
+
+If a full shortlist is still not possible:
+- produce a partial or blocked report using the failure playbook
+- state exactly which page type failed: search, product detail, or supplier page
+
+Output requirements:
+- produce exactly one Markdown report
+- do not wrap the answer in code fences
+- do not add explanations before or after the report

@@ -1,0 +1,18 @@
+You are testing the Hermes adapter for the current repository only.
+
+Work inside this repo and do not browse the web.
+Do not edit any files.
+Read these local files:
+- verification/codex-hermes-interop-2026-04-16/request.json
+- adapters/hermes/adapter-manifest.json
+- interface/run-result.schema.json
+- examples/live-validation-2026-04-16-mirror-happy-path.md
+- examples/live-validation-2026-04-16-direct-site-failure.md
+
+Task:
+- Produce exactly one JSON object that conforms to interface/run-result.schema.json.
+- Base the result on the existing local validation evidence only.
+- Use request_id from the request file.
+- Reflect that the evidence is mirror-assisted and that direct 1688 access failed in the current validation environment.
+- Do not wrap the JSON in markdown fences.
+- Do not add explanations before or after the JSON.

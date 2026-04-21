@@ -1,0 +1,25 @@
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_lunch_box_001",
+  "status": "partial",
+  "evidence_mode": "mirror_assisted",
+  "supplier_count": 3,
+  "collected_supplier_names": [
+    "Shitai / shitai stainless steel",
+    "潮州市潮安区辛博尔不锈钢制品厂",
+    "潮州市潮安区奔展不锈钢制品有限公司"
+  ],
+  "summary": "Mirror-accessible validation produced a 3-supplier shortlist for the stainless steel insulated lunch box direction, but direct 1688.com access failed in the current environment.",
+  "blockers": [
+    "Direct 1688.com search and detail pages returned non-retryable errors in this validation environment."
+  ],
+  "limitations": [
+    "Evidence is mirror-assisted only; supplier profile pages were not directly validated.",
+    "Factory ownership, certification, lead time, and export experience remain unknown.",
+    "The run does not prove direct 1688.com reachability in the target host."
+  ],
+  "report_artifacts": {
+    "report_markdown_ref": "examples/live-validation-2026-04-16-mirror-happy-path.md",
+    "run_notes_ref": "examples/live-validation-2026-04-16-direct-site-failure.md"
+  }
+}

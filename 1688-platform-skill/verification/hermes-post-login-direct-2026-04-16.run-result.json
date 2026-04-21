@@ -1,0 +1,23 @@
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_lunch_box_001",
+  "status": "partial",
+  "evidence_mode": "direct_1688",
+  "supplier_count": 1,
+  "collected_supplier_names": [
+    "潮州市潮安区彩塘镇轩匠五金制品厂"
+  ],
+  "summary": "Hermes reused an operator-provided authenticated Chrome session and completed a direct 1688 partial run, producing one credible supplier with direct search, product, and supplier-page evidence.",
+  "blockers": [
+    "direct search results were too thin or noisy to expand the run into a 3-supplier shortlist within the iteration budget"
+  ],
+  "limitations": [
+    "the run depended on an operator-provided authenticated Chrome session rather than an automated login flow",
+    "only one supplier was validated before Hermes reached the maximum-iteration limit",
+    "the raw Hermes transcript included a banner and session trailer, so the canonical Markdown report was normalized before persistence"
+  ],
+  "report_artifacts": {
+    "report_markdown_ref": "reports/hermes-post-login-direct-2026-04-16.md",
+    "run_notes_ref": "verification/hermes-post-login-direct-2026-04-16.md"
+  }
+}

@@ -1,0 +1,3 @@
+
+╭─ ⚕ Hermes ───────────────────────────────────────────────────────────────────╮
+⚠️  Reached maximum iterations (10). Requesting summary...

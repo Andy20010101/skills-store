@@ -1,0 +1,24 @@
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_lunch_box_001",
+  "status": "partial",
+  "evidence_mode": "mirror_assisted",
+  "auth_mode": "unauthenticated",
+  "supplier_count": 3,
+  "collected_supplier_names": [
+    "Shitai / shitai stainless steel",
+    "潮州市潮安区辛博尔不锈钢制品厂",
+    "潮州市潮安区奔展不锈钢制品有限公司"
+  ],
+  "summary": "A usable supplier shortlist was produced through mirror-accessible pages, but direct 1688 detail pages were not reachable in the current environment.",
+  "blockers": [
+    "direct 1688 page opening failed in the validation environment"
+  ],
+  "limitations": [
+    "supplier profile pages were not fully validated through direct 1688 access"
+  ],
+  "report_artifacts": {
+    "report_markdown_ref": "examples/live-validation-2026-04-16-mirror-happy-path.md",
+    "run_notes_ref": "examples/live-validation-2026-04-16-direct-site-failure.md"
+  }
+}

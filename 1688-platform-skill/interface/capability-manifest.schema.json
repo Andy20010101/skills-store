@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/1688-supplier-discovery/interface/capability-manifest.schema.json",
+  "title": "1688 Supplier Discovery Capability Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "interface_version",
+    "adapter_id",
+    "agent_family",
+    "validation_status",
+    "entrypoints",
+    "capabilities",
+    "operation_mapping"
+  ],
+  "properties": {
+    "interface_version": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "adapter_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "agent_family": {
+      "type": "string",
+      "enum": [
+        "codex",
+        "claude-code",
+        "openclaw",
+        "hermes",
+        "other"
+      ]
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "not_validated",
+        "validated_partial",
+        "validated_direct"
+      ]
+    },
+    "validated_auth_mode": {
+      "type": "string",
+      "enum": [
+        "unauthenticated",
+        "operator_authenticated",
+        "self_authenticated",
+        "mixed"
+      ]
+    },
+    "entrypoints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary_prompt"
+      ],
+      "properties": {
+        "primary_prompt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "support_docs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "capabilities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "browser_navigation",
+        "visible_page_reading",
+        "supplier_page_traversal",
+        "markdown_output",
+        "output_normalization"
+      ],
+      "properties": {
+        "browser_navigation": {
+          "type": "boolean"
+        },
+        "visible_page_reading": {
+          "type": "boolean"
+        },
+        "supplier_page_traversal": {
+          "type": "boolean"
+        },
+        "markdown_output": {
+          "type": "boolean"
+        },
+        "output_normalization": {
+          "type": "boolean"
+        },
+        "structured_intermediate_output": {
+          "type": "boolean"
+        },
+        "keyword_search_assist": {
+          "type": "boolean"
+        },
+        "screenshots": {
+          "type": "boolean"
+        },
+        "tab_management": {
+          "type": "boolean"
+        }
+      }
+    },
+    "operation_mapping": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "navigate_page",
+        "read_visible_content",
+        "open_supplier_or_product_link",
+        "write_markdown_report",
+        "normalize_final_output"
+      ],
+      "properties": {
+        "navigate_page": {
+          "type": "string",
+          "minLength": 1
+        },
+        "read_visible_content": {
+          "type": "string",
+          "minLength": 1
+        },
+        "open_supplier_or_product_link": {
+          "type": "string",
+          "minLength": 1
+        },
+        "write_markdown_report": {
+          "type": "string",
+          "minLength": 1
+        },
+        "normalize_final_output": {
+          "type": "string",
+          "minLength": 1
+        },
+        "write_candidate_set": {
+          "type": "string",
+          "minLength": 1
+        },
+        "write_evidence_notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

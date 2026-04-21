@@ -1,0 +1,210 @@
+
+╭─ ⚕ Hermes ───────────────────────────────────────────────────────────────────╮
+# 1688 Supplier Discovery Report
+
+## Research Brief
+- Product direction: 304不锈钢饭盒 / 分格便当盒 / 上班族与学生便携餐盒
+- Search phrases used:
+  - 未在证据笔记中记录
+- Constraints:
+  - 仅基于已审核的证据笔记归纳
+  - 不能补写未被证据支持的供应商
+  - 当前可信供应商少于 3 家时需明确说明
+
+## Run Notes
+- Evidence mode: direct_1688
+- Host capability assumptions: 证据笔记已包含可直接核验的 1688 商品页与店铺页链接
+- Access limitations: 仅审阅本地 evidence-notes artifact；未新增打开网页
+- Important caveats: 现有候选集只有 2 家，未达到 3 家可信供应商阈值
+
+## Supplier Shortlist
+当前仅保留 2 家可信供应商，少于 3 家；未为凑数补充弱候选。
+
+### 1. 潮州市潮安区彩塘镇广成不锈钢制品厂
+- Evidence page link: https://chaozhougc.1688.com/
+- Source 1688 link: https://chaozhougc.1688.com/
+- Why shortlisted: 店铺年限、服务分、好评率与商品页销量信号较强，且与 304 不锈钢饭盒方向高度匹配
+
+#### Page-Visible Facts
+- 入驻 9 年
+- 主营：餐具
+- 店铺回头率 77%
+- 店铺服务分 4.5 分
+- 准时发货率 81%
+- 店铺好评率 99.9%
+- 商品材质为 304 不锈钢
+- 价格为 ¥23.25
+- 4 个起批
+- 已售 2200+ 个
+- 规格包含小号二格 / 小号三格 / 大号四格等多种颜色
+- 是否保温：否
+- 盒子层数：单层
+
+#### Heuristic Judgments
+- 店铺身份看起来稳定，且活跃度足以保留进入 shortlist
+- 商品与店铺品类宽度和不锈钢餐盒 sourcing 方向一致
+- 商业信号较强，适合后续优先回访
+
+#### Unknowns
+- factory-direct status 未在页面上被独立证明
+- 认证细节只部分可见，未完成验证
+- 实际产能与出口深度仍不清楚
+
+#### Representative Products
+1. 304不锈钢饭盒带盖上班族餐盒学生便携分2三格不串味便当盒高颜值
+   - Evidence link: https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4
+   - Source 1688 link: https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4
+   - Visible price / MOQ: ¥23.25; 4 个起批
+   - Notes: 可见 304 不锈钢饭盒商品页，带销量与规格线索
+
+### 2. 龙港市萱甄工艺品厂
+- Evidence page link: https://shop87n77471lx561.1688.com/
+- Source 1688 link: https://shop87n77471lx561.1688.com/
+- Why shortlisted: 店铺活跃、发货率高，商品页可读性较好，具备跨境导向信号，但与饭盒主线的聚焦度弱于第 1 家
+
+#### Page-Visible Facts
+- 入驻 1 年
+- 主营：家用电器
+- 店铺回头率 40%
+- 店铺服务分 4.5 分
+- 准时发货率 97%
+- 店铺好评率 100.0%
+- 新人价 ¥38.50 起
+- 首件预估到手价 ¥39.50-42.00
+- 1 台起批
+- 60+ 人想买
+- 是否跨境出口专供货源：是
+- 主要下游平台：eBay / 亚马逊 / wish / 速卖通 / 独立站 / LAZADA
+
+#### Heuristic Judgments
+- 店铺活跃且发货指标强，仍值得保留
+- 商品可见且有明显跨境导向，但店铺类目混杂度高于第 1 家
+- 商业匹配度弱于第 1 家，但证据仍可用
+
+#### Unknowns
+- 公司介绍 / 类目混合与当前商品线不完全一致
+- factory-direct status 未被页面独立证明
+- 实际业务重心与饭盒 sourcing 深度不清楚
+
+#### Representative Products
+1. 跨境304不锈钢饭盒保温上班族小学生分格便当盒分隔食堂打饭餐盒
+   - Evidence link: https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4
+   - Source 1688 link: https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4
+   - Visible price / MOQ: ¥38.50 起; 1 台起批
+   - Notes: 带跨境出口与平台分发线索的饭盒商品页
+
+## Rejected or Lower-Priority Candidates
+- 无新增候选
+- 原始候选集仅 2 家，未出现可替代的第 3 家可信供应商
+- 其余未收录对象不满足“可审阅证据足够强”的入围标准
+
+## Next Actions
+- 优先回访：潮州市潮安区彩塘镇广成不锈钢制品厂
+- 次优回访：龙港市萱甄工艺品厂
+- 需要我确认：是否继续扩展到第三家可信供应商，或接受当前仅 2 家的阶段性 shortlist
+- 需要我确认：是否补充更窄的搜索词来提高饭盒方向命中率
+# 1688 Supplier Discovery Report
+
+## Research Brief
+- Product direction: 304不锈钢饭盒 / 分格便当盒 / 上班族与学生便携餐盒
+- Search phrases used:
+  - 未在证据笔记中记录
+- Constraints:
+  - 仅基于已审核的证据笔记归纳
+  - 不能补写未被证据支持的供应商
+  - 当前可信供应商少于 3 家时需明确说明
+
+## Run Notes
+- Evidence mode: direct_1688
+- Host capability assumptions: 证据笔记已包含可直接核验的 1688 商品页与店铺页链接
+- Access limitations: 仅审阅本地 evidence-notes artifact；未新增打开网页
+- Important caveats: 现有候选集只有 2 家，未达到 3 家可信供应商阈值
+
+## Supplier Shortlist
+当前仅保留 2 家可信供应商，少于 3 家；未为凑数补充弱候选。
+
+### 1. 潮州市潮安区彩塘镇广成不锈钢制品厂
+- Evidence page link: https://chaozhougc.1688.com/
+- Source 1688 link: https://chaozhougc.1688.com/
+- Why shortlisted: 店铺年限、服务分、好评率与商品页销量信号较强，且与 304 不锈钢饭盒方向高度匹配
+
+#### Page-Visible Facts
+- 入驻 9 年
+- 主营：餐具
+- 店铺回头率 77%
+- 店铺服务分 4.5 分
+- 准时发货率 81%
+- 店铺好评率 99.9%
+- 商品材质为 304 不锈钢
+- 价格为 ¥23.25
+- 4 个起批
+- 已售 2200+ 个
+- 规格包含小号二格 / 小号三格 / 大号四格等多种颜色
+- 是否保温：否
+- 盒子层数：单层
+
+#### Heuristic Judgments
+- 店铺身份看起来稳定，且活跃度足以保留进入 shortlist
+- 商品与店铺品类宽度和不锈钢餐盒 sourcing 方向一致
+- 商业信号较强，适合后续优先回访
+
+#### Unknowns
+- factory-direct status 未在页面上被独立证明
+- 认证细节只部分可见，未完成验证
+- 实际产能与出口深度仍不清楚
+
+#### Representative Products
+1. 304不锈钢饭盒带盖上班族餐盒学生便携分2三格不串味便当盒高颜值
+   - Evidence link: https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4
+   - Source 1688 link: https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4
+   - Visible price / MOQ: ¥23.25; 4 个起批
+   - Notes: 可见 304 不锈钢饭盒商品页，带销量与规格线索
+
+### 2. 龙港市萱甄工艺品厂
+- Evidence page link: https://shop87n77471lx561.1688.com/
+- Source 1688 link: https://shop87n77471lx561.1688.com/
+- Why shortlisted: 店铺活跃、发货率高，商品页可读性较好，具备跨境导向信号，但与饭盒主线的聚焦度弱于第 1 家
+
+#### Page-Visible Facts
+- 入驻 1 年
+- 主营：家用电器
+- 店铺回头率 40%
+- 店铺服务分 4.5 分
+- 准时发货率 97%
+- 店铺好评率 100.0%
+- 新人价 ¥38.50 起
+- 首件预估到手价 ¥39.50-42.00
+- 1 台起批
+- 60+ 人想买
+- 是否跨境出口专供货源：是
+- 主要下游平台：eBay / 亚马逊 / wish / 速卖通 / 独立站 / LAZADA
+
+#### Heuristic Judgments
+- 店铺活跃且发货指标强，仍值得保留
+- 商品可见且有明显跨境导向，但店铺类目混杂度高于第 1 家
+- 商业匹配度弱于第 1 家，但证据仍可用
+
+#### Unknowns
+- 公司介绍 / 类目混合与当前商品线不完全一致
+- factory-direct status 未被页面独立证明
+- 实际业务重心与饭盒 sourcing 深度不清楚
+
+#### Representative Products
+1. 跨境304不锈钢饭盒保温上班族小学生分格便当盒分隔食堂打饭餐盒
+   - Evidence link: https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4
+   - Source 1688 link: https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4
+   - Visible price / MOQ: ¥38.50 起; 1 台起批
+   - Notes: 带跨境出口与平台分发线索的饭盒商品页
+
+## Rejected or Lower-Priority Candidates
+- 无新增候选
+- 原始候选集仅 2 家，未出现可替代的第 3 家可信供应商
+- 其余未收录对象不满足“可审阅证据足够强”的入围标准
+
+## Next Actions
+- 优先回访：潮州市潮安区彩塘镇广成不锈钢制品厂
+- 次优回访：龙港市萱甄工艺品厂
+- 需要我确认：是否继续扩展到第三家可信供应商，或接受当前仅 2 家的阶段性 shortlist
+- 需要我确认：是否补充更窄的搜索词来提高饭盒方向命中率
+
+session_id: 20260417_090937_e2e110

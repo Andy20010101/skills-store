@@ -1,0 +1,25 @@
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_lunch_box_001",
+  "status": "partial",
+  "evidence_mode": "mirror_assisted",
+  "supplier_count": 3,
+  "collected_supplier_names": [
+    "Shitai / shitai stainless steel",
+    "潮州市潮安区辛博尔不锈钢制品厂",
+    "潮州市潮安区奔展不锈钢制品有限公司"
+  ],
+  "summary": "Codex completed a real report generation flow for the lunch-box request using the repo's validated mirror-assisted evidence and produced a supplier-first Markdown shortlist with three candidates.",
+  "blockers": [
+    "direct 1688 page opening was not proven in the current validation environment"
+  ],
+  "limitations": [
+    "this run reused the repo's validated April 16 evidence instead of performing a fresh direct-site browse",
+    "supplier profile pages were not fully validated through direct 1688 access",
+    "factory ownership, certification, lead time, and export experience remain unknown"
+  ],
+  "report_artifacts": {
+    "report_markdown_ref": "reports/lunch-box-suppliers.md",
+    "run_notes_ref": "examples/live-validation-2026-04-16-mirror-happy-path.md"
+  }
+}

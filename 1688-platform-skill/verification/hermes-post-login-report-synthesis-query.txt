@@ -1,0 +1,22 @@
+You are running phase 3 of a Hermes direct-site validation using an operator-provided authenticated browser session.
+
+Rules:
+- do not open new web pages in this phase
+- do not ask for credentials
+- do not edit repository files
+- synthesize only from the reviewed evidence notes artifact
+
+Read these local files first:
+- core/output-contract.md
+- core/failure-playbook.md
+- {{EVIDENCE_NOTES_PATH}}
+
+Phase objective:
+- write the final canonical supplier-first Markdown report from the evidence notes
+- if fewer than 3 credible suppliers remain, say so explicitly instead of padding the shortlist
+- preserve facts, heuristic judgments, and unknowns as separate sections
+
+Output requirements:
+- produce exactly one Markdown report
+- do not wrap the answer in code fences
+- do not add explanations before or after the report

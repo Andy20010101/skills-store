@@ -1,0 +1,7 @@
+interface:
+  display_name: "1688 Supplier Discovery"
+  short_description: "Single-topic 1688 supplier research skill"
+  default_prompt: "Use $1688-supplier-discovery to research 1688 suppliers for one product direction and return a supplier-first Markdown shortlist."
+
+policy:
+  allow_implicit_invocation: true

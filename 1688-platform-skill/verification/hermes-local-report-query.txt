@@ -1,0 +1,20 @@
+You are running a local-only Hermes report generation test for this repository.
+
+Work only with local repository files.
+Do not browse the web.
+Do not edit any existing repository files.
+
+Read these files:
+- interface/examples/research-request.example.json
+- core/output-contract.md
+- examples/live-validation-2026-04-16-mirror-happy-path.md
+- examples/live-validation-2026-04-16-direct-site-failure.md
+
+Task:
+- Produce exactly one Markdown report that follows the structure in core/output-contract.md.
+- Use the request data from interface/examples/research-request.example.json.
+- Base the report only on the existing local validation evidence.
+- Preserve the direct-site limitation: direct 1688 page access was not proven in the current environment.
+- Keep facts, heuristic judgments, and unknowns separate.
+- Do not wrap the answer in markdown fences.
+- Do not add explanations before or after the report.

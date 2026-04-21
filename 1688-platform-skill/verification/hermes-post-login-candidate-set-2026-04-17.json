@@ -1,0 +1,71 @@
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_lunch_box_001",
+  "phase": "search_harvest",
+  "evidence_mode": "direct_1688",
+  "search_strategy": {
+    "phrases_attempted": [
+      "保温饭盒"
+    ],
+    "phrase_limit": 2,
+    "product_page_open_limit_per_phrase": 2,
+    "notes": [
+      "Hermes reached the phase-1 turn limit and emitted a natural-language summary instead of schema-valid JSON.",
+      "The canonical candidate-set artifact was normalized from the raw Hermes transcript while preserving only pages that Hermes reported opening."
+    ]
+  },
+  "search_page_links": [
+    "https://s.1688.com/selloffer/offer_search.htm?keywords=%E4%BF%9D%E6%B8%A9%E9%A5%AD%E7%9B%92"
+  ],
+  "candidates": [
+    {
+      "candidate_id": "cand_guangcheng_001",
+      "rank": 1,
+      "search_phrase": "保温饭盒",
+      "supplier_name": "潮州市潮安区彩塘镇广成不锈钢制品厂",
+      "product_title": "304不锈钢饭盒带盖上班族餐盒学生便携分2三格不串味便当盒高颜值",
+      "evidence_page_link": "https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+      "source_1688_link": "https://detail.1688.com/offer/908205986518.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=9cf026eabacb4ac1ba0bdbbbf7347e0e&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+      "supplier_page_link": "https://chaozhougc.1688.com/",
+      "visible_clues": [
+        "304不锈钢",
+        "¥23.25",
+        "4个起批",
+        "已售2200+个",
+        "40+人已加购",
+        "入驻9年",
+        "店铺回头率77%",
+        "店铺服务分4.5分",
+        "准时发货率81%",
+        "店铺好评率99.9%"
+      ],
+      "selection_reason": "strong direct-page category fit plus stable supplier identity and dense visible commercial clues made this the highest-signal candidate in the bounded direct search pass"
+    },
+    {
+      "candidate_id": "cand_xuanzhen_002",
+      "rank": 2,
+      "search_phrase": "保温饭盒",
+      "supplier_name": "龙港市萱甄工艺品厂（个体工商户）",
+      "product_title": "跨境304不锈钢饭盒保温上班族小学生分格便当盒分隔食堂打饭餐盒",
+      "evidence_page_link": "https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+      "source_1688_link": "https://detail.1688.com/offer/1028813801883.html?cosite=-&tracelog=p4p&_p_isad=1&clickid=02001f4b42ac49e1904647a6b1d37fc1&sessionid=22e952944ca91af1bdfc0d05ba3385c4",
+      "supplier_page_link": "https://shop87n77471lx561.1688.com/",
+      "visible_clues": [
+        "304不锈钢",
+        "保温关键词明显",
+        "1台起批",
+        "60+人想买",
+        "首件预估到手价约 ¥39.5-42",
+        "入驻1年",
+        "店铺服务分4.5分",
+        "准时发货率97%",
+        "店铺好评率100%"
+      ],
+      "selection_reason": "the direct result path stayed readable and supplier identity was visible, so this candidate remained worth deeper supplier-page review despite a weaker price fit"
+    }
+  ],
+  "limitations": [
+    "the search results were still noisy enough that Hermes stopped after harvesting two high-signal candidates",
+    "the raw phase-1 run did not emit schema-valid JSON before the turn limit"
+  ]
+}

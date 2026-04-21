@@ -1,0 +1,21 @@
+{
+  "interface_version": "1.0.0",
+  "request_id": "req_lunch_box_001",
+  "status": "success",
+  "evidence_mode": "direct_1688",
+  "supplier_count": 3,
+  "collected_supplier_names": [
+    "replace supplier 1",
+    "replace supplier 2",
+    "replace supplier 3"
+  ],
+  "summary": "Hermes completed a direct-site supplier-discovery run by reusing an operator-provided authenticated browser session and produced a canonical supplier-first report.",
+  "blockers": [],
+  "limitations": [
+    "replace with any remaining limitations, or keep this array empty if none"
+  ],
+  "report_artifacts": {
+    "report_markdown_ref": "reports/hermes-post-login-direct-YYYY-MM-DD.md",
+    "run_notes_ref": "verification/hermes-post-login-direct-YYYY-MM-DD.md"
+  }
+}

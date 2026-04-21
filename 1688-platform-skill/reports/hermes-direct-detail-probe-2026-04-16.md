@@ -1,0 +1,18 @@
+# Hermes Direct Detail Probe
+
+## Probe Target
+- URL: https://detail.1688.com/offer/672143711850.html
+
+## Outcome
+- Status: blocked
+- Readability: The target page immediately redirected to a Taobao/1688 login page, so the product detail content was not reliably readable.
+
+## Visible Facts
+- The visible page title was “全球领先的采购批发平台,批发网”.
+- The page showed Taobao login UI, not the product detail page.
+- Visible login tabs included “密码登录” and “短信登录”.
+- Visible input fields included “账号名/邮箱/手机号” and “请输入登录密码”.
+- A visible “登录” button was present.
+
+## Notes
+- The requested 1688 product page could not be read because access was redirected to login before product content appeared.
