@@ -40,6 +40,22 @@
 
 ---
 
+### 🎨 style-prompt-forger
+**Gemini + GPT 图片风格焚诀提取 Skill**
+
+从参考图中反推可复用中文生图 Prompt，再替换主体交给 GPT 生图；适合海报、插画、设计稿等图像风格迁移工作流。
+
+| 属性 | 值 |
+|------|-----|
+| 触发词 | @style-prompt-forger / 提取焚诀 / 反推图片风格 / Gemini 提取 GPT 生图 |
+| 定位 | 参考图风格提取与新主体生图 |
+| 依赖 | Gemini · ChatGPT · agent-browser · Chrome DevTools 9222 |
+| 状态 | ✅ 已收录 |
+
+📂 [技能目录](./style-prompt-forger/) · [详细文档](./style-prompt-forger/SKILL.md) · [中文案例](./style-prompt-forger/README.md)
+
+---
+
 ## 🚧 即将上线
 
 | 技能 | 描述 | 状态 |
@@ -59,6 +75,7 @@
 ```bash
 openclaw skills install Andy20010101/skills-store/boss-zhipin-agent
 openclaw skills install Andy20010101/skills-store/1688-platform-skill
+openclaw skills install Andy20010101/skills-store/style-prompt-forger
 ```
 
 或通过 [ClawhHub](https://clawhub.com) 搜索 `boss-zhipin-agent`。
@@ -74,4 +91,4 @@ openclaw skills install Andy20010101/skills-store/1688-platform-skill
 
 ---
 
-*Last updated: 2026-04-21*
+*Last updated: 2026-04-27*

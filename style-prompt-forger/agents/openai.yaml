@@ -1,0 +1,4 @@
+interface:
+  display_name: "Style Prompt Forger"
+  short_description: "Reverse engineer reusable image styles"
+  default_prompt: "Use @style-prompt-forger ($style-prompt-forger) with a reference image and target subject to extract a reusable style prompt."
